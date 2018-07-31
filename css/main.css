@@ -276,18 +276,14 @@ img {
 }
 
 .about__title {
-    margin: 107px 0 33px 0;
-}
-
-.about__img {
-    margin-top: 61px;
+    margin-bottom: 30px;
 }
 
 .about__text {
     font-size: 18px;
     line-height: 20px;
     text-align: left;
-    margin-bottom: 110px;
+    margin: 0;
 }
 
 .team__title {
