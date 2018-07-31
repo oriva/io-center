@@ -23,16 +23,15 @@ $(document).ready(function () {
     // 	$("#form_result").hide().html(rezultat).slideDown();
     // 	}, 'json');
     // }
-    var varbody = $('body')
-        , $tel = $('#tel');
+    var tel = $('#tel');
     $(document).on('scroll', function () {
-        var position = varbody.scrolltop()
+        var position = $(window).scrollTop();
         var block_position = $('#box1').offset().top; // расположение блока, от которого и зависит фиксированность хэдера
         if (position > block_position) { // если позиция скролла страницы больше, то ставим фикс
-            $tel.addClass('fixed');
+            tel.addClass('fixed');
         }
         else {
-            $tel.removeClass('fixed');
+            tel.removeClass('fixed');
         }
     });
     $('.get__item').click(function(){
