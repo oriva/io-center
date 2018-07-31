@@ -49,6 +49,11 @@ body {
     -ms-flex-pack: center!important;
     justify-content: center!important;
 }
+.justify-content-between {
+    -webkit-box-pack: justify!important;
+    -ms-flex-pack: justify!important;
+    justify-content: space-between!important;
+}
 .row {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -125,108 +130,26 @@ img {
 
 /*-----------------Шапка----------------------*/
 
-header {
-    background: url(../img/Header-bg.png) no-repeat center center;
-    min-width: 1440px;
-    padding: 0px 0 144px 0;
-    background-size: cover;
-}
-
 .relitive {
     position: relative;
 }
 
-.header__flag {
-    margin: 56px 0 0 0;
-    float: left;
-    margin-right: 25px;
-}
-
-.header__flag:hover {
-    cursor: pointer;
-}
-
-.header__flag:nth-child(2) {
-    margin-top: 54px
-}
-
-.header__list {
-    margin-top: 63px;
-}
-
-.header__item {
-    margin-right: 25px;
-    font-size: 14px;
-    font-weight: Regular;
-    line-height: 28px;
-    float: left;
-}
-
-.header__logo {
-    margin-top: 40px;
-}
-
-.header__logo_mini {
-    display: none;
-}
-
-.header__item:hover {
-    cursor: pointer;
-}
-
-.header__item:nth-child(1) {
-    margin-left: 6px;
-}
-
-.header__item:nth-child(4) {
-    margin-right: 0px;
-}
-
-.header__tel {
-    width: 222px;
-    border: 2px solid white;
-    padding: 2px 21px;
-    border-radius: 12px;
-    text-align: left;
-    margin-top: 52px;
-    font-weight: bold;
-}
-
-.header__icon {
-    margin: 0px;
-    float: left;
-    margin-top: 10px;
-    margin-right: 10px;
-}
-
-.Header__phone-number {
-    font-size: 18px;
-    line-height: 28px;
-    margin-top: 5px;
-}
-
-.header_adress {
-    font-size: 14px;
-    text-align: left;
-    margin-left: 18px;
-    margin-top: 6px;
-}
-
 .info {
-    padding: 10px 41px 15px 41px;
+    padding: 20px 41px;
     max-width: 740px;
     border-radius: 10px;
     border: 4px dashed white;
-    margin-top: 111px;
 }
 
-.info__title {}
+.info__title {
+    margin: 0;
+}
 
 .header__title {
     font-size: 36px;
     text-align: left;
     line-height: 42px;
-    margin: 41px 0 36px 0;
+    margin: 41px 0;
 }
 
 .mybtn {
@@ -241,7 +164,7 @@ header {
 
 .header__button {
     display: block;
-    width: 100%;
+    width: 70%;
     margin: 0;
 }
 
@@ -256,7 +179,7 @@ header {
 }
 
 .what__title {
-    margin: 107px 0 53px 0;
+    margin-bottom: 53px;
 }
 
 .what__img {
@@ -271,7 +194,7 @@ header {
 }
 
 .what__text:nth-child(2) {
-    margin-bottom: 110px;
+    margin-bottom: 0;
 }
 
 .get__container {
@@ -297,6 +220,7 @@ header {
     float: left;
     margin-left: 30px;
     cursor: pointer;
+    position: relative;
 }
 
 .get__name {
@@ -332,7 +256,7 @@ header {
 .get__text {
     text-align: left;
     font-size: 18px;
-    line-height: 16px;
+    line-height: 1.4em;
     margin: auto;
 }
 

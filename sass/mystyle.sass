@@ -24,3 +24,86 @@
     -moz-user-select: none
     -ms-user-select: none
     user-select: none
+.col-auto
+    -webkit-box-flex: 0
+    -ms-flex: 0 0 auto
+    flex: 0 0 auto
+    width: auto
+    max-width: none
+    position: relative
+    min-height: 1px
+    padding-right: 15px
+    padding-left: 15px
+.scale-zero
+    @include transform(scale(0)!important)
+.scale-text
+    @include transform(rotate3d(20, 0, 0, -90deg))
+.w-100
+    width: 100%
+.header
+    min-height: 100vh
+    background: url(../img/Header-bg.png) no-repeat center center
+    min-width: 1440px
+    background-size: cover
+    &__menu
+        padding: 40px 0
+    &__sub
+        height: calc(100vh - 150px)
+    &__logo
+        width: 200px
+    &__flag
+        overflow: hidden
+        display: inline-block
+        border-radius: 50px
+        width: 35px
+        height: 35px
+        margin: 0 10px
+        @include transition(.3s)
+        img
+            height: 100%
+        a
+            width: 100%
+            position: relative
+            display: block
+            height: 100%
+        &.active
+            border: 2px solid #FFF
+    &__flag:hover:not(.active)
+        cursor: pointer
+        @include transform(scale(.9))
+    &__menu-link
+        color: #FFF
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        font-size: .9em
+    &__number
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        border: 2px solid #FFF
+        border-radius: 10px
+        padding: 7px 0
+        a
+            margin: auto
+            color: #FFF
+            display: flex
+        p
+            display: inline-block
+            margin: 0 3px
+        img
+            margin: 0 3px
+        &:before
+            content: 'ул. Партизанская 3, оф. 312'
+            position: absolute
+            font-size: .8em
+            left: 0
+            right: 0
+            bottom: -27px
+.what
+    padding: 100px 0 140px
+        

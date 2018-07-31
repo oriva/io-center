@@ -14,35 +14,15 @@
     <link rel="stylesheet" href="css/media.css"> </head>
 
 <body>
+    <div class="tel" id="tel">
+        <div class="tel__number"> <img src="img/phone.png" alt="трубка" class="tel__icon"> <span class="tel__tel white">	
+            <a class="white" href="tel:+739525773770">8  (3952) 577 - 377</a>	
+        </span> </div>
+        <div class="tel__text white"> Иркутск, ул. Пискунова д. 44 </div>
+    </div>
+<!--
     <header>
-        <div class="tel" id="tel">
-            <div class="tel__number"> <img src="img/phone.png" alt="трубка" class="tel__icon"> <span class="tel__tel white">	
-                <a class="white" href="tel:+739525773770">8  (3952) 577 - 377</a>	
-            </span> </div>
-            <div class="tel__text white"> Иркутск, ул. Пискунова д. 44 </div>
-        </div>
-        <div class=" container clearfix">
-            <div class="row clearfix">
-                <div class="col-lg-3 col-md-3 col-sm-4"> <img src="img/logo.png" alt="Логотип" class="header__logo "> <img src="img/logo-mini.png" alt="Логотип" class="header__logo_mini "> </div>
-                <div class="col-lg-6 col-md-6 col-sm-3"> <img src="img/Siera.png" alt="Сиера-Лионе" class="header__flag header__flag_Siera"> <img src="img/Russia.png" alt="Россия" class="header__flag header__flag_russia">
-                    <nav class="header__menu">
-                        <ul class="header__list white">
-                            <li class="header__item"> О нас </li>
-                            <li class="header__item"> Расписание </li>
-                            <li class="header__item"> Пробное тестирование </li>
-                            <li class="header__item"> Отзывы </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-5">
-                    <div class="header__number">
-                        <div class="header__tel white"> <img src="img/phone.png" alt="трубка" class="header__icon">
-                            <p class="Header__phone-number"> 8 (3952) 577 - 377 </p>
-                        </div>
-                        <p class="header_adress white"> ул. Партизанская 3, оф. 312 </p>
-                    </div>
-                </div>
-            </div>
+        <div class="container clearfix">
             <div class="row">
                 <div class="col-lg-1"> </div>
                 <div class="col-lg-8 col-xs-12">
@@ -71,14 +51,70 @@
             </div>
         </div>
     </header>
+-->
+    <header class="header">
+        <div class="container">
+            <div class="row justify-content-between align-items-center header__menu">
+                <div class="col-auto">
+                    <a href="/">
+                        <img src="img/logo.png" class="header__logo" alt="">
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <div class="header__flag">
+                        <a href="http://uz.iocent.ru"><img src="img/uzbekistan.svg"></a>
+                    </div>
+                    <div class="header__flag active">
+                        <img src="img/russia.svg">
+                    </div>
+                </div>
+                <div class="col-auto"><a href="#" class="header__menu-link">О нас</a></div>
+                <div class="col-auto"><a href="#" class="header__menu-link">Расписание</a></div>
+                <div class="col-auto"><a href="#" class="header__menu-link">Пробное тестирование</a></div>
+                <div class="col-auto"><a href="#" class="header__menu-link">Отзывы</a></div>
+                <div class="col-lg-3 col-md-3 col-sm-5">
+                    <div class="header__number white">
+                        <a href="tel:83952577377"><img src="img/phone.svg">
+                            <p>
+                                8 (3952) 577 - 377
+                            </p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center header__sub">
+                <div class="col-md-8 col-md-offset-1 col-xs-12">
+                    <div class="info">
+                        <h2 class="info__title upper white">
+                            патент / внж / рвп / ир / гражданство
+                        </h2>
+                    </div>
+<!--
+                </div>
+                <div class="col-lg-6 col-md-offset-1">
+-->
+                    <h1 class="header__title upper white">
+                    Пройдите тестирование<br>
+                    на знание русского<br> 
+                    языка и получите <br>
+                    сертификат <br>
+                    через 3 дня
+                    </h1>
+<!--
+                </div>
+                <div class="col-lg-6 col-md-offset-1">
+-->
+                    <button class="header__button upper white mybtn"> Записаться на тестирование </button>
+                </div>
+            </div>
+        </div>
+    </header>
     <section class="what" id="box1">
         <div class="container">
             <h2 class="what__title upper">
-			Для чего необходим сертификат?
-		</h2>
-            <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-2"> <img src="img/gerb.png" alt="Герб" class="what__img"> </div>
+                Для чего необходим сертификат?
+            </h2>
+            <div class="row align-items-center">
+                <div class="col-md-2 col-md-offset-1"><img src="img/gerb.png" alt="Герб" class="what__img"> </div>
                 <div class="col-md-7">
                     <p class="what__text"> Федеральный закон от 25 июля 2002 г. N 115-ФЗ "О правовом положении иностранных граждан в Российской Федерации" предусматривает установление с 2015 года обязанности подтверждения в установленном порядке владения русским языком и знания истории и основ законодательства России для иностранных граждан. </p>
                     <p class="what__text"> Для получения документов на патент, РВП, ВЖ и гражданство необходимо иметь соответствующие сертификаты подтвержданющие знание русского языка. </p>
@@ -94,37 +130,30 @@
 					Получите сертификат за 3 дня
 				</h2> </div>
                 <ul class="get__list clearfix">
-                    <li class="get__item active">
-                        <h4 class="get__name">
-						Патент
-					</h4>
+                    <li class="get__item active" data-url="/img/cert1.jpg" data-text="Мы выдаем сертификат государственного образца, который 
+позволяет получить ПАТЕНТ, РВП, ВНЖ, ГРАЖДАНСТВО РФ.">
+                        <h4 class="get__name">Патент</h4>
                         <div class="get__line"></div>
-                        <p class="get__info"> Сертификаты (ИР) </p>
+                        <p class="get__info">Сертификаты (ИР)</p>
                     </li>
-                    <li class="get__item">
-                        <h4 class="get__name">
-						РВП
-					</h4>
+                    <li class="get__item" data-url="/img/cert2.jpg" data-text="Это РПВ, тестируем. Надо картинку">
+                        <h4 class="get__name">РВП</h4>
                         <div class="get__line"></div>
-                        <p class="get__info"> Сертификаты (РВ) </p>
+                        <p class="get__info">Сертификаты (РВ)</p>
                     </li>
-                    <li class="get__item">
-                        <h4 class="get__name">
-						ВЖ
-					</h4>
+                    <li class="get__item" data-url="/img/cert1.jpg" data-text="Это ВНЖ. Тестим">
+                        <h4 class="get__name">ВЖ</h4>
                         <div class="get__line"></div>
-                        <p class="get__info"> Сертификаты (ВНЖ) </p>
+                        <p class="get__info">Сертификаты (ВНЖ)</p>
                     </li>
-                    <li class="get__item">
-                        <h4 class="get__name">
-						Гражданство
-					</h4>
+                    <li class="get__item" data-url="/img/cert2.jpg" data-text="Это ТБУ. Тест удачный">
+                        <h4 class="get__name">Гражданство</h4>
                         <div class="get__line"></div>
-                        <p class="get__info"> Сертификаты (ТБУ/А2) </p>
+                        <p class="get__info">Сертификаты (ТБУ/А2)</p>
                     </li>
                 </ul>
                 <div class="get__div_cert"> <img src="img/sertificat.png" alt="Сертификат" class="get__img">
-                    <p class="get__text"> Мы выдаем сертификат государственного образца, который позволяет получить ПАТЕНТ, РВП, ВНЖ, ГРАЖДАНСТВО РФ. </p>
+                    <p class="get__text">Мы выдаем сертификат государственного образца, который позволяет получить ПАТЕНТ, РВП, ВНЖ, ГРАЖДАНСТВО РФ.</p>
                 </div>
                 <div class="get__button_white">
                     <button class="get__button mybtn white upper"> Получить сертфикат </button>
@@ -135,8 +164,8 @@
     <section class="about">
         <div class="container">
             <h2 class="about__title upper">
-			О нашем центре
-		</h2>
+                О нашем центре
+            </h2>
             <div class="row">
                 <div class="col-lg-3"> <img src="img/what.png" alt="Иркутский образовательный центр" class="about__img"> </div>
                 <div class="col-lg-7">
@@ -363,7 +392,7 @@
                     <br> </div>
                 <div class="col-xs-4 footer__link text-center"> <a href="/legal/">Политика конфиденциальности</a> </div>
                 <div class="col-xs-4 text-center footer__right">
-                    <p>© <a href="http://do4agym38.ru">IOCENT.RU</a> 2018</p>
+                    <p>© <a href="http://iocent.ru">IOCENT.RU</a> 2018</p>
                 </div>
             </div>
         </div>

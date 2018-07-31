@@ -35,7 +35,16 @@ $(document).ready(function () {
         }
     });
     $('.get__item').click(function(){
+        var but = $(this);
         $('.get__item.active').removeClass('active');
         $(this).addClass('active');
+        $('.get__img').addClass('scale-zero');
+        $('.get__text').addClass('scale-text');
+        setTimeout(function(){
+            $('.get__img').attr('src', but.data('url'));
+            $('.get__text').html(but.data('text'));
+            $('.get__img').removeClass('scale-zero');
+            $('.get__text').removeClass('scale-text');
+        }, 170);
     });
 });
