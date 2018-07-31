@@ -35,6 +35,7 @@ $(document).ready(function () {
         }
     });
     $('.get__item').click(function(){
-        
+        $('.get__item.active').removeClass('active');
+        $(this).addClass('active');
     });
 });
