@@ -135,14 +135,15 @@ img {
 }
 
 .info {
-    padding: 20px 41px;
-    max-width: 740px;
+    padding: 28px 0;
+    max-width: 970px;
     border-radius: 10px;
     border: 4px dashed white;
 }
 
 .info__title {
     margin: 0;
+    font-size: 40px;
 }
 
 .header__title {
@@ -164,7 +165,7 @@ img {
 
 .header__button {
     display: block;
-    width: 70%;
+    width: 40%;
     margin: 0;
 }
 
@@ -677,7 +678,7 @@ img {
     margin-left: auto;
     left: 0;
     right: -255px;
-    transition: .4s
+    transition: .4s right
 }
 .tel.fixed {
     right: 50px;

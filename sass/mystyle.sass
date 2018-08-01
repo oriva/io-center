@@ -47,7 +47,11 @@
 .political_par
     text-align: center
     a
-        text-decoration-style: dashed
+        text-decoration: underline solid
+        &:hover
+            opacity: .8
+    label
+        font-size: 0.6em
     [type="checkbox"]:checked, [type="checkbox"]:not(:checked)
         position: absolute
         //left: -9999px//
@@ -81,7 +85,7 @@
         content: ''
         width: 8px
         height: 8px
-        background: #000
+        background: #FFA800
         position: absolute
         top: 1px
         left: 1px
@@ -93,12 +97,20 @@
         opacity: 1
         @include transform(scale(1))
 .modal-enter
-    display: block
+    display: none
     background: rgba(0, 0, 0, 0.5)
     position: fixed
     height: 100%
     width: 100%
     z-index: 200
+    .closed
+        position: absolute
+        right: 20px
+        top: 20px
+        cursor: pointer
+        @include transition(.3s)
+        &:hover
+            @include transform(scale(.9))
     &__contain
         background: #FFF
         border-radius: 13px
@@ -125,7 +137,6 @@
 .header
     min-height: 100vh
     background: url(../img/Header-bg.png) no-repeat center center
-    min-width: 1440px
     background-size: cover
     &__menu
         padding: 40px 0
