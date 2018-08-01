@@ -1,11 +1,3 @@
-// $(document).ready(function(){
-//   $(".owl-carousel").owlCarousel({
-//   	dotsClass: '.get__item',
-//   	dots:1,
-//   	slidesToShow: 1,
-//   	slidesToScroll:1,
-//    });
-//  });
 $(document).ready(function () {
     // 	var name = $('input[name=fio]').val(); 
     // 	var tel = $('input[name=tel]').val();
@@ -46,5 +38,13 @@ $(document).ready(function () {
             $('.get__img').removeClass('scale-zero');
             $('.get__text').removeClass('scale-text');
         }, 170);
+    });
+    $(".header a").click(function (event) {
+        if($(this).attr('href').substring(0,1)=='#'){
+            event.preventDefault();
+            var id  = $(this).attr('href'),
+                top = $(id).offset().top;
+            $('body,html').animate({scrollTop: top}, 1500);
+        }
     });
 });

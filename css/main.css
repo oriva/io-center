@@ -321,26 +321,17 @@ img {
     width: 100%;
 }
 
-.license__title {
-    margin: 110px 0 53px 0;
-}
-
 .license__text {
     font-weight: bold;
     text-align: left;
     font-size: 18px;
-}
-
-.license__item {
-    margin-bottom: 80px;
-}
-
-.license__text {
-    margin-top: 45px;
+    letter-spacing: .03em;
+    margin: 0;
 }
 
 .license__img {
-    margin-right: 7px;
+    margin-right: 3px;
+    width: 120px;
 }
 
 .univer {
@@ -349,23 +340,24 @@ img {
 }
 
 .univer__title {
-    margin: 40px 0 69px 0;
+    margin-bottom: 69px;
     line-height: 30px;
 }
 
 .univer__text {
     text-align: right;
     font-weight: bold;
-    margin-top: 90px;
 }
 
 .univer__text_second {
-    margin-left: 15px;
-    margin-top: 80px;
     line-height: 22px;
 }
 
-.univer__img {}
+.univer__img {
+    width: 75%;
+    margin-right: auto;
+    display: block;
+}
 
 .need__title {
     margin: 0px 0 50px 0;
@@ -640,6 +632,8 @@ img {
     background: #477DC7;
     padding: 50px 0;
     height: auto;
+    z-index: 100;
+    position: relative;
 }
 
 .footer__logo {
