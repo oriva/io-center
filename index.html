@@ -19,6 +19,7 @@
            <div class="row h-100 justify-content-center align-items-center">
                <div class="col-auto modal-enter__contain">
                    <form method="post">
+                      <input type="text" hidden="hidden" name="meta">
                        <div class="group">
                             <input type="text" name="name" autocomplete="off" placeholder="-" required=""><span class="bar"></span>
                             <label>Имя*</label>
@@ -28,6 +29,10 @@
                             <label>Телефон*</label>
                         </div>
                         <button>Отправить заявку</button>
+                        <p class="political_par clearfix">
+                            <input type="checkbox" id="checkbox2" checked="" required="">
+                            <label for="checkbox2">я даю согласие на обработку <a href="/legal/">персональных данных</a></label>
+                        </p>
                    </form>
                </div>
            </div>
