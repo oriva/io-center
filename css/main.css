@@ -470,7 +470,7 @@ img {
 }
 
 .step {
-    padding: 15px 0 105px 0;
+    padding: 55px 0 105px 0;
 }
 
 .step__title {
@@ -699,6 +699,10 @@ img {
     font-weight: bold;
     text-decoration: none;
     line-height: 1em;
+}
+
+.tel__tel a:hover {
+    color: #FFF
 }
 
 .tel__icon {
