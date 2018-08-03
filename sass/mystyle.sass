@@ -296,7 +296,13 @@
             fill: #FFF
 .mob-header
     display: none
+.d-hide
+    display: none
 @media (max-width:767.98px)
+    .d-hide
+        display: block
+    .mob-hide
+        display: none
     .mob-header
         display: -webkit-flex
         display: -moz-flex
@@ -306,12 +312,23 @@
         padding: 25px 0
         .logo
             width: 93px
+    .modal-enter__contain, .modal-success__contain
+        padding: 40px 25px 20px
+        .group input
+            font-family: 'Proxima nova black'
+            width: 100%
+    .tel
+        
     .header
         min-height: auto
         &__sub
             height: auto
-        &__number:before
-            bottom: -3px
+        &__number
+            border-radius: 16px
+            p
+                font-size: .9em
+            &:before
+                bottom: -3px
         &__flag
             margin: 20px 5px 0
         &__button
@@ -319,7 +336,7 @@
             width: 230px
             margin: 0
             margin: auto
-            padding: 5px 50px
+            padding: 5px 40px
     .answer
         svg
             margin: 4px 0
@@ -327,3 +344,27 @@
             margin-bottom: 25px
     .get__div_cert
         display: block
+    .license
+        padding: 30px 0
+        &__item
+            margin: 20px 0
+    .univer
+        &__title
+            margin-bottom: 30px
+        &__text
+            text-align: center
+            margin: 0
+        &__img
+            width: 100%
+            padding: 10%
+    .about
+        margin: 70px 0 30px
+    .review
+        &__title
+            margin: 50px 0 40px
+        &__men
+            width: 100px
+        &__fio
+            font-size: 0.8em
+        &__people
+            margin: 10px 20px
