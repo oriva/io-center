@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/mystyle.css">
     <link rel="stylesheet" href="css/input.css">
-    <link rel="stylesheet" href="css/media.css"> </head>
+    </head>
 
 <body>
     <div class="modal-enter">
@@ -72,6 +73,9 @@
             </span></a>
         </div>
         <div class="tel__text white">ул. Партизанская 3, оф. 312</div>
+        <div class="d-hide">
+            <a href="tel:83952577377"><img src="img/phone.svg" alt=""></a>
+        </div>
     </div>
     <header class="header">
         <div class="container">
@@ -145,7 +149,7 @@
                         <br>тестирование </p>
                     <p class="step__text step__text_second">Получите сертификат </p>
                 </div>
-                <div class="col-md-2 col-xs-2">
+                <div class="col-md-2 col-xs-3">
                     <div class="step__circle step__circle_masage"><img src="img/massage.svg" alt="" class="step__masage"></div> <img src="img/arrow.svg" alt="Стрелочка" class="step__arrow">
                     <div class="step__circle step__circle_test"><img src="img/test.svg" alt="" class="step__test"></div><img src="img/arrow.svg" alt="Стрелочка" class="step__arrow">
                     <div class="step__circle"><img src="img/hand.svg" alt="Рука" class="step__hand"></div>
@@ -163,7 +167,7 @@
                     <h2 class="upper">
                         Получите сертификат за 3 дня
                     </h2> </div>
-                <ul class="get__list clearfix">
+                <ul class="get__list clearfix mob-hide">
                     <li class="get__item active" data-url="/img/cert1.jpg" data-text="Мы выдаем сертификат государственного образца, который 
                     позволяет получить ПАТЕНТ, РВП, ВНЖ, ГРАЖДАНСТВО РФ.">
                         <h4 class="get__name">Патент</h4>
@@ -175,17 +179,46 @@
                         <div class="get__line"></div>
                         <p class="get__info">Сертификаты (РВ)</p>
                     </li>
-                    <li class="get__item" data-url="/img/cert1.jpg" data-text="Это ВНЖ. Тестим">
+                    <li class="get__item" data-url="/img/cert3.jpg" data-text="Это ВНЖ. Тестим">
                         <h4 class="get__name">ВНЖ</h4>
                         <div class="get__line"></div>
                         <p class="get__info">Сертификаты (ВЖ)</p>
                     </li>
-                    <li class="get__item" data-url="/img/cert2.jpg" data-text="Это ТБУ. Тест удачный">
+                    <li class="get__item" data-url="/img/cert4.jpg" data-text="Это ТБУ. Тест удачный">
                         <h4 class="get__name">Гражданство</h4>
                         <div class="get__line"></div>
                         <p class="get__info">Сертификаты (ТБУ/А2)</p>
                     </li>
                 </ul>
+                <div class="col-xs-6 d-hide">
+                    <li class="get__item active" data-url="/img/cert1.jpg" data-text="Мы выдаем сертификат государственного образца, который 
+                    позволяет получить ПАТЕНТ, РВП, ВНЖ, ГРАЖДАНСТВО РФ.">
+                        <h4 class="get__name">Патент</h4>
+                        <div class="get__line"></div>
+                        <p class="get__info">Сертификаты (ИР)</p>
+                    </li>
+                </div>
+                <div class="col-xs-6 d-hide">
+                    <li class="get__item" data-url="/img/cert2.jpg" data-text="Это РПВ, тестируем. Надо картинку">
+                        <h4 class="get__name">РВП</h4>
+                        <div class="get__line"></div>
+                        <p class="get__info">Сертификаты (РВ)</p>
+                    </li>
+                </div>
+                <div class="col-xs-6 d-hide">
+                    <li class="get__item" data-url="/img/cert3.jpg" data-text="Это ВНЖ. Тестим">
+                        <h4 class="get__name">ВНЖ</h4>
+                        <div class="get__line"></div>
+                        <p class="get__info">Сертификаты (ВЖ)</p>
+                    </li>
+                </div>
+                <div class="col-xs-6 d-hide">
+                    <li class="get__item" data-url="/img/cert4.jpg" data-text="Это ТБУ. Тест удачный">
+                        <h4 class="get__name">Гражданство</h4>
+                        <div class="get__line"></div>
+                        <p class="get__info">Сертификаты (ТБУ/А2)</p>
+                    </li>
+                </div>
                 <div class="get__div_cert"><img src="img/sertificat.png" alt="Сертификат" class="get__img">
                     <p class="get__text">Мы выдаем сертификат государственного образца, который позволяет получить ПАТЕНТ, РВП, ВНЖ, ГРАЖДАНСТВО РФ.</p>
                 </div>
@@ -261,18 +294,18 @@
                 </li>
                 <li class="license__item">
                     <div class="row align-items-center">
-                        <div class="col-md-5 col-md-offset-2"> <img src="img/3.png" alt="Образовательная деятельность" class="license__img"> <img src="img/4.png" alt="Образовательная деятельность" class="license__img"> <img src="img/5.png" alt="Образовательная деятельность" class="license__img"> </div>
-                        <div class="col-md-4">
+                        <div class="col-md-5 col-md-offset-2 mob-ord-2 col-xs-12"> <img src="img/3.png" alt="Образовательная деятельность" class="license__img"> <img src="img/4.png" alt="Образовательная деятельность" class="license__img"> <img src="img/5.png" alt="Образовательная деятельность" class="license__img"> </div>
+                        <div class="col-md-4 mob-ord-1 col-xs-12">
                             <p class="license__text license__text_left"> Лицензия осуществление образовательной деятельности </p>
                         </div>
                     </div>
                 </li>
                 <li class="license__item">
                     <div class="row align-items-center">
-                        <div class="col-md-4 col-md-offset-1">
+                        <div class="col-md-4 col-md-offset-1 col-xs-12">
                             <p class="license__text">Выписка из единого государственного реестра юридических лиц</p>
                         </div>
-                        <div class="col-md-3"> <img src="img/6.png" alt="Государственный реестр" class="license__img w-100"> </div>
+                        <div class="col-md-3 col-xs-8 col-xs-offset-2 col-md-offset-0"> <img src="img/6.png" alt="Государственный реестр" class="license__img w-100"> </div>
                     </div>
                 </li>
             </ul>
@@ -288,14 +321,14 @@
                 <div class="col-md-1 col-md-offset-2 col-xs-4 mob-hide">
                     <p class="univer__text">СПбГУ</p>
                 </div>
-                <div class="col-md-3 col-xs-6">
+                <div class="col-md-3 col-xs-5 col-xs-offset-1 col-md-offset-0">
                     <img src="img/spbgu.jpg" alt="СПбГУ" class="univer__img">
                     <p class="univer__text univer__text_second upper d-hide">СПбГУ</p>
                 </div>
                 <div class="col-md-2 col-sm-12 mob-hide">
                     <p class="univer__text univer__text_second upper">РГПУ имени Герцена</p>
                 </div>
-                <div class="col-md-3 col-xs-6">
+                <div class="col-md-3 col-xs-5">
                     <img src="img/Gercena.jpg" alt="РГПУ имени Герцена" class="univer__img">
                     <p class="univer__text univer__text_second upper d-hide">РГПУ имени Герцена</p>
                 </div>
@@ -357,9 +390,9 @@
             <h2 class="what__title upper">
                 Для чего необходим сертификат?
             </h2>
-            <div class="row align-items-center">
-                <div class="col-md-2 col-md-offset-1"><img src="img/gerb.png" alt="Герб" class="what__img"> </div>
-                <div class="col-md-7">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-2 col-md-offset-1 col-xs-4"><img src="img/gerb.png" alt="Герб" class="what__img"> </div>
+                <div class="col-md-7 col-xs-12">
                     <p class="what__text">Федеральный закон от 25 июля 2002 г. N 115-ФЗ "О правовом положении иностранных граждан в Российской Федерации" предусматривает установление с 2015 года обязанности подтверждения в установленном порядке владения русским языком, знания истории России и основ законодательства РФ для иностранных граждан.</p>
                     <p class="what__text">Для получения документов на ПАТЕНТ, РВП, ВНЖ и гражданство необходимо иметь соответствующие сертификаты подтверждающие знание русского языка.</p>
                 </div>
@@ -403,33 +436,48 @@
                         <div class="review__fio">
                             <label>Аликулов
                                 <br>Аслиддин</label> <img src="/img/uzbekistan.svg" alt=""> </div>
+                        <div class="tubec">
+                            <iframe width="100%" src="https://www.youtube.com/embed/HFMsvVwmjEQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
                     </div>
                     <div class="review__people" data-video="https://www.youtube.com/embed/gdBSyMsBDhc">
                         <div class="review__men"> <img src="/img/review/2.jpg" alt="" class="review__men_pic"> </div>
                         <div class="review__fio">
                             <label>Си
                                 <br>Годун</label> <img src="/img/china.svg" alt=""> </div>
+                        <div class="tubec">
+                            <iframe width="100%" src="https://www.youtube.com/embed/gdBSyMsBDhc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
                     </div>
                     <div class="review__people" data-video="https://www.youtube.com/embed/XGuiwUmvJ_0">
                         <div class="review__men"> <img src="/img/review/3.jpg" alt="" class="review__men_pic"> </div>
                         <div class="review__fio">
                             <label>Маликшоев Муриват
                                 <br>Рахматович</label> <img src="/img/tajikistan.svg" alt=""> </div>
+                        <div class="tubec">
+                            <iframe width="100%" src="https://www.youtube.com/embed/XGuiwUmvJ_0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
                     </div>
                     <div class="review__people" data-video="https://www.youtube.com/embed/fnGBxsPr1So">
                         <div class="review__men"> <img src="/img/review/4.jpg" alt="" class="review__men_pic"> </div>
                         <div class="review__fio">
                             <label>Кулматов Юсуп
-                                <br>Шкрматович</label> <img src="/img/uzbekistan.svg" alt=""> </div>
+                                <br>Шерматович</label> <img src="/img/uzbekistan.svg" alt=""> </div>
+                        <div class="tubec">
+                            <iframe width="100%" src="https://www.youtube.com/embed/fnGBxsPr1So" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
                     </div>
                     <div class="review__people" data-video="https://www.youtube.com/embed/M-6lEdjtRCU">
                         <div class="review__men"> <img src="/img/review/5.jpg" alt="" class="review__men_pic"> </div>
                         <div class="review__fio">
                             <label>Муратова Азимгул
                                 <br>Равшанбековна</label> <img src="/img/kyrgyzstan.svg" alt=""> </div>
+                        <div class="tubec">
+                            <iframe width="100%" src="https://www.youtube.com/embed/M-6lEdjtRCU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 mob-hide">
                     <div class="review__youtube">
                         <iframe width="100%" src="https://www.youtube.com/embed/HFMsvVwmjEQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
@@ -493,7 +541,7 @@
                 <div class="col-xs-4 footer__logo">
                     <a href="http://litvinenko.digital" target="_blank"><img src="/img/litvinenko.svg" alt=""></a>
                     <br> </div>
-                <div class="col-xs-4 footer__link text-center"><a href="/legal/">Политика конфиденциальности</a></div>
+                <div class="col-xs-4 footer__link text-center"><a href="/legal/" class="link">Политика конфиденциальности</a></div>
                 <div class="col-xs-4 text-center footer__right">
                     <p>© <a href="http://iocent.ru">IOCENT.RU</a> 2018</p>
                 </div>

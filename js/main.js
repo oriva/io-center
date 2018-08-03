@@ -104,6 +104,10 @@ $('form').on('submit', function (e) {
 
 //video
 $('.review__people').click(function(){
+    if($(window).width()<768){
+         $('.review__people.active').find('tubec').slideToggle();
+         $(this).find('tubec').slideToggle();
+    }
     $('.review__people.active').removeClass('active');
     $(this).addClass('active');
     $('.review__youtube iframe').attr('src', $(this).data('video'));
