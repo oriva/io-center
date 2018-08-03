@@ -96,13 +96,41 @@
     [type="checkbox"]:checked + label:after
         opacity: 1
         @include transform(scale(1))
-.modal-enter
+.modal-info
     display: none
     background: rgba(0, 0, 0, 0.5)
     position: fixed
     height: 100%
     width: 100%
     z-index: 200
+    .line
+        margin: 30px 0
+    &__text
+        font-size: .9em
+        text-align: left
+    .closed
+        position: absolute
+        right: 20px
+        top: 20px
+        cursor: pointer
+        @include transition(.3s)
+        &:hover
+            @include transform(scale(.9))
+    &__contain
+        background: #FFF
+        border-radius: 13px
+        padding: 29px 79px
+        position: relative
+.modal-enter, .modal-success
+    display: none
+    background: rgba(0, 0, 0, 0.5)
+    position: fixed
+    height: 100%
+    width: 100%
+    z-index: 200
+    .line
+        margin: 40px 0
+        display: block
     .closed
         position: absolute
         right: 20px
@@ -250,10 +278,14 @@
             display: block
             height: 280px
 .answer
+    margin-bottom: 50px
     .first, rect
         fill: #E9E9E9
     .second
         fill: #000
+    svg
+        margin: 15px 0
+        width: 100%
     h2
         margin-bottom: 60px
     svg:hover
@@ -262,4 +294,36 @@
             fill: #006AFF
         .second
             fill: #FFF
-        
+.mob-header
+    display: none
+@media (max-width:767.98px)
+    .mob-header
+        display: -webkit-flex
+        display: -moz-flex
+        display: -ms-flex
+        display: -o-flex
+        display: flex
+        padding: 25px 0
+        .logo
+            width: 93px
+    .header
+        min-height: auto
+        &__sub
+            height: auto
+        &__number:before
+            bottom: -3px
+        &__flag
+            margin: 20px 5px 0
+        &__button
+            display: block
+            width: 230px
+            margin: 0
+            margin: auto
+            padding: 5px 50px
+    .answer
+        svg
+            margin: 4px 0
+        h2
+            margin-bottom: 25px
+    .get__div_cert
+        display: block

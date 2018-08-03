@@ -1,7 +1,7 @@
 <?php
 if($_POST)
 {
-$to_Email = "weelman@mail.ru"; 
+$to_Email = "1formarketing@gmail.com"; 
 $subject = 'Запрос обратного звонка '.$_POST["polz_name"]; 
 
 if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
