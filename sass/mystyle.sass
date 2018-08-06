@@ -166,6 +166,12 @@
     min-height: 100vh
     background: url(../img/Header-bg.png) no-repeat center center
     background-size: cover
+    &.legal_header
+        min-height: auto
+        .header__sub
+            height: auto
+        .header__title
+            margin: 40px 0 100px
     &__menu
         padding: 40px 0
     &__sub
@@ -300,6 +306,11 @@
     display: none
 .d-hide
     display: none
+.legal
+    p
+        margin: 50px 0 90px
+        font-size: .8em
+        text-align: left
 @media (max-width:767.98px)
     .mob-ord-1
         order: 1
@@ -341,6 +352,8 @@
             width: 30px
     .header
         min-height: auto
+        &.legal_header
+            padding: 0
         &__sub
             height: auto
         &__number

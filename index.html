@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width = device-width initial-scale=1">
     <title>ИОЦЕНТР</title>
+    <!--  icon  -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/favicon.ico">
+    <!--  css   -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
@@ -219,7 +224,7 @@
                         <p class="get__info">Сертификаты (ТБУ/А2)</p>
                     </li>
                 </div>
-                <div class="get__div_cert"><img src="img/sertificat.png" alt="Сертификат" class="get__img">
+                <div class="get__div_cert"><img src="/img/cert1.jpg" alt="Сертификат" class="get__img">
                     <p class="get__text">Мы выдаем сертификат государственного образца, который позволяет получить ПАТЕНТ, РВП, ВНЖ, ГРАЖДАНСТВО РФ.</p>
                 </div>
                 <div class="get__button_white">
@@ -553,6 +558,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        jQuery.preloadImages = function()
+         {
+          for(var i = 0; i < arguments.length; i++)
+          {
+           jQuery("<img>").attr("src", arguments[ i ]);
+          }
+         };
+
+        //указываем путь к изображению, которое нужно подгрузить
+        $.preloadImages("/img/cert1.jpg", "/img/cert2.jpg", "/img/cert3.jpg", "/img/cert4.jpg");
+    </script>
 </body>
 
 </html>

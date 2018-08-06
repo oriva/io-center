@@ -253,6 +253,7 @@ img {
 .get__img {
     float: left;
     margin-right: 30px;
+    width: 290px;
 }
 
 .get__text {
@@ -263,7 +264,7 @@ img {
 }
 
 .get__div_cert {
-    display: flex;
+    display: block;
     vertical-align: middle;
 }
 
