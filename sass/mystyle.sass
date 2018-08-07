@@ -271,6 +271,7 @@
         vertical-align: middle
         margin-left: 15px
         label
+            font-size: .8em
             margin: 0
             line-height: 1.2em
         img
@@ -311,6 +312,139 @@
         margin: 50px 0 90px
         font-size: .8em
         text-align: left
+@media (min-width:992px) and (max-width:1199.98px)
+    .header
+        .col-auto
+            padding-left: 0
+        &__button
+            margin-left: auto
+            margin-right: auto
+        &__title
+            font-size: 1.6em
+            line-height: 1.3em
+        &__logo
+            width: 170px
+        &__flag
+            height: 30px
+            width: 30px
+            img
+                height: 103%
+    .info__title
+        font-size: 1.6em
+    .about
+        img
+            display: none
+    .license
+        padding: 30px 0
+        &__img
+            width: 90px
+        &__text
+            font-size: 15px
+    .free
+        &__text
+            font-size: .8em
+        &__item
+            padding: 18px 20px
+            width: 329px
+            &:nth-child(3)
+                width: 225px
+                .free__text
+                    margin: 10px 0 25px
+        &__button
+            width: 165px
+            font-size: 14px
+    .what
+    .review__people
+        margin: 0 10px 0 10px
+    .sent__button
+        margin-top: 30px
+@media (min-width:768px) and (max-width:991.98px)
+    .mob-ord-1
+        order: 1
+    .mob-ord-2
+        order: 2
+    .mob-ord-3
+        order: 3
+    .mob-ord-4
+        order: 4
+    .mob-hide
+        display: none
+    .header
+        min-height: auto
+        &__sub
+            height: auto
+            margin: 40px 0 90px
+        &__button
+            margin-left: auto
+            margin-right: auto
+            width: 55%
+    .step__text
+        font-size: 14px
+    .sent__button
+        margin-top: 30px
+    .d-hide
+        display: block
+    .review
+        margin-bottom: 30px
+        &__people.active .tubec
+            display: block
+        &__people .tubec
+            display: none
+            margin-top: 15px
+            border-radius: 15px
+            overflow: hidden
+            position: relative
+            iframe
+                display: block
+                height: 300px
+    .modal-info
+        h2
+            line-height: 32px
+    .get
+        &__item
+            margin-bottom: 10px
+        &__container
+            padding-bottom: 90px
+        &__button_white
+            margin-top: 110px
+    .license
+        padding: 50px 0
+        &__item
+            margin: 50px 0
+        &__text
+            margin-bottom: 10px
+            text-align: center
+    .univer
+        &__title
+            margin-bottom: 30px
+        &__text
+            text-align: center
+            margin: 0
+            font-size: .8em
+        &__img
+            width: 70%
+            margin: 10px auto
+    .free
+        &__item, &__item:nth-child(1), &__item:nth-child(3)
+            width: 70%
+            margin: 10px auto
+            float: none
+        &__title
+            margin: 50px 0 30px
+    .footer
+        padding: 30px 0
+        &__link a
+            font-size: 12px
+            display: block
+        &__right p
+            font-size: 12px
+    .header.legal_header .header__title
+        margin: 40px 0
+    .what
+        &__img
+            width: 70%
+        &__text
+            font-size: 15px
 @media (max-width:767.98px)
     .mob-ord-1
         order: 1

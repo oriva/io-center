@@ -99,7 +99,9 @@
                     <div class="header__flag">
                         <a href="http://uz.iocent.ru"><img src="img/uzbekistan.svg"></a>
                     </div>
-                    <div class="header__flag active"> <img src="img/russia.svg"> </div>
+                    <div class="header__flag active">
+                    <a href="/"><img src="img/russia.svg"></a>
+                    </div>
                 </div>
             </div>
             <div class="row justify-content-between align-items-center header__menu">
@@ -169,8 +171,8 @@
         <div class="container">
             <div class="get__container clearfix">
                 <div class="get__title">
-                    <h2 class="upper">
-                        Получите сертификат за 3 дня
+                    <h2 class="upper" style="color:#006AFF">
+                        Получите сертификат за 1 день
                     </h2> </div>
                 <ul class="get__list clearfix mob-hide">
                     <li class="get__item active" data-url="/img/cert1.jpg" data-text="Мы выдаем сертификат государственного образца, который 
@@ -367,7 +369,7 @@
             </div>
         </div>
     </section>
-    <section class="free">
+    <section class="free" id="free">
         <div class="container">
             <h2 class="free__title upper">
 			если вы не уверены в своих силах, пройдите пробное тестирование <span class="blue">бесплатно!</span> 
@@ -411,21 +413,21 @@
             </h2>
             <form method="post" class="sent__form">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-md-3 col-xs-12">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
                         <input type="text" name="meta" data-meta="Пройти тестирование" hidden="hidden">
                         <div class="group">
                             <input type="text" name="name" autocomplete="off" placeholder="-" required=""> <span class="bar"></span>
                             <label>Имя*</label>
                         </div>
                     </div>
-                    <div class="col-md-3 col-xs-12">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="group">
                             <input type="tel" name="phone" class="input--tel" autocomplete="off" placeholder="-" minlength="16" required="" maxlength="16"> <span class="bar"></span>
                             <label>Телефон*</label>
                         </div>
                     </div>
                     <div id="form_result"></div>
-                    <div class="col-md-3 col-xs-12">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
                         <input id="submit" type="submit" class="sent__button mybtn white upper" value="Пройти тестирование"> </div>
                 </div>
             </form>
@@ -435,7 +437,7 @@
         <div class="container">
             <h2 class="review__title upper">Отзывы наших клиентов</h2>
             <div class="row align-items-center">
-                <div class="col-md-5 col-xs-12">
+                <div class="col-lg-5 col-md-6 col-xs-12">
                     <div class="review__people active" data-video="https://www.youtube.com/embed/HFMsvVwmjEQ">
                         <div class="review__men"> <img src="/img/review/1.jpg" alt="" class="review__men_pic"> </div>
                         <div class="review__fio">
@@ -482,7 +484,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 mob-hide">
+                <div class="col-md-5 col-lg-6 mob-hide">
                     <div class="review__youtube">
                         <iframe width="100%" src="https://www.youtube.com/embed/HFMsvVwmjEQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>

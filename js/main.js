@@ -70,6 +70,16 @@ $('.get-form').click(function () {
 $('.closed').click(function () {
     $(this).parent().parent().parent().parent().hide();
 });
+
+$(document).mousedown(function (e){
+    var div = $(".modal-info__contain");
+    if (!div.is(e.target)
+        && div.has(e.target).length === 0) {
+        $('.modal-info').hide();
+        $('html').removeClass('overfloff');
+    }
+});
+
 //forms
 $('form').on('submit', function (e) {
     e.preventDefault();
@@ -104,7 +114,7 @@ $('form').on('submit', function (e) {
 
 //video
 $('.review__people').click(function(){
-    if($(window).width()<768){
+    if($(window).width()<992){
          $('.review__people.active').find('tubec').slideToggle();
          $(this).find('tubec').slideToggle();
     }

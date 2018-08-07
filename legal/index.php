@@ -59,7 +59,7 @@
             <div class="row align-items-center header__sub">
                 <div class="col-md-offset-1 col-xs-12">
                     <h1 class="header__title upper white">
-                    ПОЛИТИКА В ОТНОШЕНИИ ОБРАБОТКИ ПЕРСОНАЛЬНЫХ ДАННЫХ В DAS AUTOSERVICE
+                    ПОЛИТИКА В ОТНОШЕНИИ ОБРАБОТКИ ПЕРСОНАЛЬНЫХ ДАННЫХ В ИОЦ
                     </h1>
                 </div>
             </div>
@@ -133,7 +133,9 @@
                     <br>
                     <br>Утверждаю 
                     <br>ЧУ ДПО «ИОЦ»
-                    <br>05.08.2018 г.</p>
+                    <br>05.08.2018 г.
+                    <br>
+                    <br><a href="/">На главную</a></p>
                 </div>
             </div>
         </div>
