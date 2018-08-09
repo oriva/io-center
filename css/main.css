@@ -144,6 +144,8 @@ img {
 .info__title {
     margin: 0;
     font-size: 40px;
+    line-height: 42px;
+    margin: -10px 0;
 }
 
 .header__title {
@@ -171,12 +173,10 @@ img {
 
 .mybtn:hover {
     background: #1A1A1A;
-    padding: 11px 15px 11px 15px;
 }
 
 .mybtn:active {
     background: #000000;
-    padding: 13px 15px 9px 15px;
 }
 
 .what__title {

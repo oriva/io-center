@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width initial-scale=1">
+    <title>ИОЦЕНТР</title>
+    <!--  icon  -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/favicon.ico">
+    <!--  css   -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/input.css">
+    </head>
+
+<body>
+    <div class="modal-enter">
+        <div class="container h-100">
+            <div class="row h-100 justify-content-center align-items-center">
+                <div class="col-auto modal-enter__contain"> <img src="/img/closed.svg" alt="" class="closed">
+                    <form method="post">
+                        <input type="text" hidden="hidden" name="meta" class="model-enter__input-meta">
+                        <div class="group">
+                            <input type="text" name="name" autocomplete="off" placeholder="-" required=""><span class="bar"></span>
+                            <label>ISM*</label>
+                        </div>
+                        <div class="group">
+                            <input type="tel" name="phone" class="input--tel" autocomplete="off" placeholder="-" minlength="16" required="" maxlength="16"><span class="bar"></span>
+                            <label>TELEFON*</label>
+                        </div>
+                        <button>Отправить заявку</button>
+                        <p class="political_par clearfix">
+                            <input type="checkbox" id="checkbox2" checked="" required="">
+                            <label for="checkbox2">я даю согласие на обработку <a href="/legal/">персональных данных</a></label>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-success">
+        <div class="container h-100">
+            <div class="row h-100 justify-content-center align-items-center">
+                <div class="col-auto modal-enter__contain"> <img src="/img/closed.svg" alt="" class="closed">
+                <h2 class="upper">Спасибо!</h2>
+                <img src="/img/line.svg" alt="" class="line">
+                <p class="upper">Ваша заявка принята.
+                <br>Свяжемся с вами в ближайшее время!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-info">
+        <div class="container h-100">
+            <div class="row h-100 justify-content-center align-items-center">
+                <div class="col-xs-12 modal-info__contain">
+                    <img src="/img/closed.svg" alt="" class="closed">
+                    <h2 class="upper">Chet el fuqarosinisi test sinovidan otkazish</h2>
+                    <img src="/img/line.svg" alt="" class="line">
+                    <p class="modal-info__text">Согласно закону Российской Федерации от 20 апреля 2014 г. иностранный гражданин при обращении за получением разрешения на временное проживание, вида на жительство, разрешения на работу либо патента обязан подтвердить владение русским языком, знание истории России и основ законодательства Российской Федерации одним из следующих документов: 
+                    <br>1) сертификатом о владении русским языком, знании истории России и основ законодательства Российской Федерации; 
+                    <br>2) документом государственного образца об образовании (на уровне не ниже основного общего образования), выданным образовательным учреждением на территории государства, входившего в состав СССР, до 1 сентября 1991 года; 
+                    <br>3) документом об образовании и (или) о квалификации, выданным лицам, успешно прошедшим государственную итоговую аттестацию на территории Российской Федерации с 1 сентября 1991 года.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tel" id="tel">
+        <div class="tel__number">
+            <a class="white" href="tel:+739525773770"><img src="img/phone.svg" alt="трубка" class="tel__icon"> <span class="tel__tel white">	
+                8 (3952) 577 - 377	
+            </span></a>
+        </div>
+        <div class="tel__text white">IRKUTSK PARTIZANSKAYA 3, 312 HONA</div>
+        <div class="d-hide">
+            <a href="tel:83952577377"><img src="img/phone.svg" alt=""></a>
+        </div>
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="row mob-header justify-content-center">
+                <div class="col-auto">
+                    <img src="/img/logo-mini.png" alt="" class="logo">
+                </div>
+                <div class="col-xs-8">
+                    <div class="header__number white">
+                        <a href="tel:83952577377"><img src="img/phone.svg">
+                            <p>8 (3952) 577 - 377</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-5 ">
+                    <div class="header__flag active">
+                        <a href="http://uz.iocent.ru"><img src="img/uzbekistan.svg"></a>
+                    </div>
+                    <div class="header__flag"><a href="http://test.iocent.ru"><img src="img/russia.svg"></a> </div>
+                </div>
+            </div>
+            <div class="row justify-content-between align-items-center header__menu">
+                <div class="col-auto">
+                    <a href="/">
+                        <img src="img/logo.png" class="header__logo" alt="">
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <div class="header__flag active">
+                        <a href="http://uz.iocent.ru">
+                            <img src="img/uzbekistan.svg">
+                        </a>
+                    </div>
+                    <div class="header__flag">
+                        <a href="http://test.iocent.ru">
+                            <img src="img/russia.svg">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-auto"><a href="#about" class="header__menu-link">BIZ HAQIMIZDA</a></div>
+                <div class="col-auto"><a href="#need" class="header__menu-link">JADVALI</a></div>
+                <div class="col-auto"><a href="#free" class="header__menu-link">TEST SINOV</a></div>
+                <div class="col-auto"><a href="#review" class="header__menu-link">SHARH</a></div>
+                <div class="col-lg-3 col-md-3 col-sm-5">
+                    <div class="header__number white">
+                        <a href="tel:83952577377"><img src="img/phone.svg">
+                            <p>8 (3952) 577 - 377</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center header__sub">
+                <div class="col-md-offset-1 col-xs-12">
+                    <div class="info">
+                        <h2 class="info__title upper white">
+                            PATENT / DYUR / VYUR / ROSSIYA FUQAROLIGINI OLISH
+                        </h2> </div>
+                    <h1 class="header__title upper white">
+                    TEST SINOVIDAN OTIHG VA
+                    <br>1 SAOT MOBAYNIDA RUS
+                    <br>TILINI BILGANLIGINGIZ
+                    <br>HAQIDA SERTIFIKAT OLING
+                    </h1>
+                    <button class="header__button upper white mybtn get-form" data-meta="Запись на тестирование">TEST SINOVI QABULIGA YOZILISH</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="step" id="box1">
+        <div class="container">
+            <h2 class="step__title upper">
+			3 шага до получения сертификата
+		</h2>
+            <div class="row">
+                <div class="col-xs-0 col-md-1 col-lg-2"> </div>
+                <div class="col-md-4 col-lg-3 col-xs-4">
+                    <p class="step__text step__text_first">Позвоните и запишитесь на
+                        <br>тестирование </p>
+                    <p class="step__text step__text_second">SERTIFIKAT OLISH</p>
+                </div>
+                <div class="col-md-2 col-xs-3">
+                    <div class="step__circle step__circle_masage"><img src="img/massage.svg" alt="" class="step__masage"></div> <img src="img/arrow.svg" alt="Стрелочка" class="step__arrow">
+                    <div class="step__circle step__circle_test"><img src="img/test.svg" alt="" class="step__test"></div><img src="img/arrow.svg" alt="Стрелочка" class="step__arrow">
+                    <div class="step__circle"><img src="img/hand.svg" alt="Рука" class="step__hand"></div>
+                </div>
+                <div class="col-md-3 col-xs-4">
+                    <p class="step__text step__text_third">Пройдите тестирование </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="get" id="get">
+        <div class="container">
+            <div class="get__container clearfix">
+                <div class="get__title">
+                    <h2 class="upper">
+                        Получите сертификат за 3 дня
+                    </h2> </div>
+                <ul class="get__list clearfix mob-hide">
+                    <li class="get__item active" data-url="/img/cert1.jpg" data-text="BIZ PATENT, VAQTINCHALIK YASHASH UCHUN RUXSAT OLISH ,DOIMIY YASHASH UCHUN RUXSAT OLISH VA ROSSIYA FUQAROLIGINI OLISH UCHUN DAVLAT NAMUNASIDA SERTIFIKAT BERAMIZ">
+                        <h4 class="get__name">Патент</h4>
+                        <div class="get__line"></div>
+                        <p class="get__info">Сертификаты (ИР)</p>
+                    </li>
+                    <li class="get__item" data-url="/img/cert2.jpg" data-text="BIZ PATENT, VAQTINCHALIK YASHASH UCHUN RUXSAT OLISH ,DOIMIY YASHASH UCHUN RUXSAT OLISH VA ROSSIYA FUQAROLIGINI OLISH UCHUN DAVLAT NAMUNASIDA SERTIFIKAT BERAMIZ">
+                        <h4 class="get__name">РВП</h4>
+                        <div class="get__line"></div>
+                        <p class="get__info">Сертификаты (РВ)</p>
+                    </li>
+                    <li class="get__item" data-url="/img/cert3.jpg" data-text="BIZ PATENT, VAQTINCHALIK YASHASH UCHUN RUXSAT OLISH ,DOIMIY YASHASH UCHUN RUXSAT OLISH VA ROSSIYA FUQAROLIGINI OLISH UCHUN DAVLAT NAMUNASIDA SERTIFIKAT BERAMIZ">
+                        <h4 class="get__name">ВНЖ</h4>
+                        <div class="get__line"></div>
+                        <p class="get__info">Сертификаты (ВЖ)</p>
+                    </li>
+                    <li class="get__item" data-url="/img/cert4.jpg" data-text="BIZ PATENT, VAQTINCHALIK YASHASH UCHUN RUXSAT OLISH ,DOIMIY YASHASH UCHUN RUXSAT OLISH VA ROSSIYA FUQAROLIGINI OLISH UCHUN DAVLAT NAMUNASIDA SERTIFIKAT BERAMIZ">
+                        <h4 class="get__name">Гражданство</h4>
+                        <div class="get__line"></div>
+                        <p class="get__info">Сертификаты (ТБУ/А2)</p>
+                    </li>
+                </ul>
+                <div class="col-xs-6 d-hide">
+                    <li class="get__item active" data-url="/img/cert1.jpg" data-text="BIZ PATENT, VAQTINCHALIK YASHASH UCHUN RUXSAT OLISH ,DOIMIY YASHASH UCHUN RUXSAT OLISH VA ROSSIYA FUQAROLIGINI OLISH UCHUN DAVLAT NAMUNASIDA SERTIFIKAT BERAMIZ">
+                        <h4 class="get__name">Патент</h4>
+                        <div class="get__line"></div>
+                        <p class="get__info">Сертификаты (ИР)</p>
+                    </li>
+                </div>
+                <div class="col-xs-6 d-hide">
+                    <li class="get__item" data-url="/img/cert2.jpg" data-text="BIZ PATENT, VAQTINCHALIK YASHASH UCHUN RUXSAT OLISH ,DOIMIY YASHASH UCHUN RUXSAT OLISH VA ROSSIYA FUQAROLIGINI OLISH UCHUN DAVLAT NAMUNASIDA SERTIFIKAT BERAMIZ">
+                        <h4 class="get__name">РВП</h4>
+                        <div class="get__line"></div>
+                        <p class="get__info">Сертификаты (РВ)</p>
+                    </li>
+                </div>
+                <div class="col-xs-6 d-hide">
+                    <li class="get__item" data-url="/img/cert3.jpg" data-text="BIZ PATENT, VAQTINCHALIK YASHASH UCHUN RUXSAT OLISH ,DOIMIY YASHASH UCHUN RUXSAT OLISH VA ROSSIYA FUQAROLIGINI OLISH UCHUN DAVLAT NAMUNASIDA SERTIFIKAT BERAMIZ">
+                        <h4 class="get__name">ВНЖ</h4>
+                        <div class="get__line"></div>
+                        <p class="get__info">Сертификаты (ВЖ)</p>
+                    </li>
+                </div>
+                <div class="col-xs-6 d-hide">
+                    <li class="get__item" data-url="/img/cert4.jpg" data-text="BIZ PATENT, VAQTINCHALIK YASHASH UCHUN RUXSAT OLISH ,DOIMIY YASHASH UCHUN RUXSAT OLISH VA ROSSIYA FUQAROLIGINI OLISH UCHUN DAVLAT NAMUNASIDA SERTIFIKAT BERAMIZ">
+                        <h4 class="get__name">ROSSIYA FUQAROLIGINI OLISH</h4>
+                        <div class="get__line"></div>
+                        <p class="get__info">Сертификаты (ТБУ/А2)</p>
+                    </li>
+                </div>
+                <div class="get__div_cert"><img src="/img/cert1.jpg" alt="Сертификат" class="get__img">
+                    <p class="get__text">BIZ PATENT, VAQTINCHALIK YASHASH UCHUN RUXSAT OLISH ,DOIMIY YASHASH UCHUN RUXSAT OLISH VA ROSSIYA FUQAROLIGINI OLISH UCHUN DAVLAT NAMUNASIDA SERTIFIKAT BERAMIZ</p>
+                </div>
+                <div class="get__button_white">
+                    <button class="get__button mybtn white upper get-form" data-meta="Патент">SERTIFIKAT OLISH</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="about__title upper">
+                MARKAZIMIZ HAQIDA
+            </h2>
+            <div class="row align-items-center">
+                <div class="col-lg-3"><img src="img/what.png" alt="Иркутский образовательный центр" class="about__img"></div>
+                <div class="col-lg-7">
+                    <p class="about__text">MARKAZIMIZ 2015 YILDA TASHKIL TOPGAN. BOLALAR VA YUQORI YOSHDAGILARGA QISHIMCHA TA'LIM OLISHGA YORDAM BERAMIZ. TA'LIM XIZMATI  YUNALISHIDA  BIZ : MALAKA OSHIRISH, KASB HUNARGA TAYYORLASH,XODIMLARNI MUTAHASISLIKGA OQITISH,UMUMTA'LIM DASTURLARI BOYICHA HIZMAT KORSATAMIZ.CHET EL FUQAROLARINI RUS TILIDAN,ROSSIYA TARIHIDAN VA QONUNCHILIGIDAN IMTIHONDAN OTKAZAMIZ. PATENT , VAQTINCHALIK YASHASH UCHUN RUXSAT OLISH, DOIMIY YASHASH RUXSAT OLISH VA ROSSIYA FUQAROLIGINI OLISH UCHUN SERTIFIKAT BERAMIZ.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team">
+        <div class="container">
+            <h2 class="team__title upper">
+			Bizning jamoamiz
+		</h2>
+            <ul class="team__list">
+                <li class="team__item team__left clearfix"> <img src="img/Prostoserdov.jpg" alt="Простосердов Глеб Евгеньевич" class="team__img">
+                    <div class="team__info">
+                        <p class="team__name">Prostervers
+                            <br>Gleb Evgeniyevich</p>
+                        <p class="team__text">директор центра</p>
+                    </div>
+                </li>
+                <li class="team__item team__right clearfix"> <img src="img/Letunov.jpg" alt="Летунов Евгений Сергеевич" class="team__img">
+                    <div class="team__info">
+                        <p class="team__name">Letunov
+                            <br>Evgeniy Sergeevich</p>
+                        <p class="team__text">заместитель директора</p>
+                    </div>
+                </li>
+                <li class="team__item team__left clearfix"> <img src="img/Karpec.jpg" alt="Карпец Екатерина Владимировна" class="team__img">
+                    <div class="team__info">
+                        <p class="team__name">Karpets Ketrin
+                            <br>Vladimirovna</p>
+                        <p class="team__text">экзаменатор-тестор</p>
+                    </div>
+                </li>
+                <li class="team__item team__right clearfix"> <img src="img/Pacechnii.jpg" alt="Пасечный Сергей Викторович" class="team__img">
+                    <div class="team__info">
+                        <p class="team__name">Pasechny
+                            <br>Sergey Viktorovich</p>
+                        <p class="team__text">экзаменатор-тестор</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="license">
+        <div class="container">
+            <h2 class="license__title upper">
+                Ruxsatnoma litsenziyalangan
+            </h2>
+            <ul class="license__list">
+                <li class="license__item">
+                    <div class="row align-items-center">
+                        <div class="col-md-4 col-md-offset-1 col-xs-12">
+                            <p class="license__text">Davlat ro'yxatidan va soliq organida hisobda o'tganlik haqida guvohnomalarimiz rasmiylashtirilgan</p>
+                        </div>
+                        <div class="col-md-3 col-xs-12"> <img src="img/1.png" alt="Государственная регистрация" class="license__img"> <img src="img/2.png" alt="Государственная регистрация" class="license__img"> </div>
+                    </div>
+                </li>
+                <li class="license__item">
+                    <div class="row align-items-center">
+                        <div class="col-md-5 col-md-offset-2 mob-ord-2 col-xs-12"> <img src="img/3.png" alt="Образовательная деятельность" class="license__img"> <img src="img/4.png" alt="Образовательная деятельность" class="license__img"> <img src="img/5.png" alt="Образовательная деятельность" class="license__img"> </div>
+                        <div class="col-md-4 mob-ord-1 col-xs-12">
+                            <p class="license__text license__text_left">Ta'lim berish faoliyatini amalga oshirish uchun litsenziyaga egamiz</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="license__item">
+                    <div class="row align-items-center">
+                        <div class="col-md-4 col-md-offset-1 col-xs-12">
+                            <p class="license__text">Yuridik shaxslarning yagona davlat reyestridan otkazilganmiz</p>
+                        </div>
+                        <div class="col-md-3 col-xs-8 col-xs-offset-2 col-md-offset-0"> <img src="img/6.png" alt="Государственный реестр" class="license__img w-100"> </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <secion class="univer">
+        <div class="container">
+            <h2 class="univer__title upper">
+			MARKAZIMIZ HAQIDA BIZ FEDERAL
+			<br>UNIVERSITETLARNING VAKILLARIMIZ
+		</h2>
+            <div class="row align-items-center">
+                <div class="col-md-1 col-md-offset-2 col-xs-4 mob-hide">
+                    <p class="univer__text">SPDU</p>
+                </div>
+                <div class="col-md-3 col-xs-5 col-xs-offset-1 col-md-offset-0">
+                    <img src="img/spbgu.jpg" alt="СПбГУ" class="univer__img">
+                    <p class="univer__text univer__text_second upper d-hide">SPDU</p>
+                </div>
+                <div class="col-md-2 col-sm-12 mob-hide">
+                    <p class="univer__text univer__text_second upper">GNRDU</p>
+                </div>
+                <div class="col-md-3 col-xs-5">
+                    <img src="img/Gercena.jpg" alt="РГПУ имени Герцена" class="univer__img">
+                    <p class="univer__text univer__text_second upper d-hide">GNRDU</p>
+                </div>
+            </div>
+        </div>
+    </secion>
+    <section class="need" id="need">
+        <div class="container">
+            <div class="need__container">
+                <h2 class="need__title upper">
+				SERTIFIKAT KERAKMI?
+			</h2>
+                <p class="need__text upper">QULAY KUNGA YOZILING VA BIZNING MARKAZDA IMTIHONDAN OTING!</p>
+                <ul class="need__galery clearfix">
+                    <li class="need__photo"><img src="img/7.png" alt="" class="need__img"></li>
+                    <li class="need__photo"><img src="img/8.png" alt="" class="need__img"></li>
+                    <li class="need__photo"><img src="img/9.png" alt="" class="need__img"></li>
+                </ul>
+                <p class="need__text upper">BIZ HAFTADA 7 KUN  ISHLAYMIZ</p>
+                <ul class="need__list">
+                    <li class="need__item">ПН<img src="img/vector.png" alt="" class="need__icon"></li>
+                    <li class="need__item">ВТ<img src="img/vector.png" alt="" class="need__icon"></li>
+                    <li class="need__item">СР<img src="img/vector.png" alt="" class="need__icon"></li>
+                    <li class="need__item">ЧТ<img src="img/vector.png" alt="" class="need__icon"></li>
+                    <li class="need__item">ПТ<img src="img/vector.png" alt="" class="need__icon"></li>
+                    <li class="need__item">СБ<img src="img/vector.png" alt="" class="need__icon"></li>
+                    <li class="need__item">ВС<img src="img/vector.png" alt="" class="need__icon"></li>
+                </ul>
+                <button class="mybtn upper white need__button get-form" data-meta="Запись на тестирование 2">IMTIHONGA YOZILING</button>
+            </div>
+        </div>
+    </section>
+    <section class="free" id="free">
+        <div class="container">
+            <h2 class="free__title upper">
+			AGAR UZ BILIMINGIZGA ISHONMASANGIZ, SINOV IMTIHONIDAN BEPUL <span class="blue">OTING!</span> 
+		</h2>
+            <ul class="free__list clearfix">
+                <li class="free__item">
+                    <p class="free__text"><br>PATENT,
+                    <br>MEHNAT HUQUQI</p>
+                    <button class="free__button upper white mybtn get-form" data-meta="IMTIHONGA YOZILING ПАТЕНТ">IMTIHONGA YOZILING</button>
+                </li>
+                <li class="free__item">
+                    <p class="free__text">VAQTINCHALIK YASHASH UCHUN RUXSAT (VYUR) DOIMIY YASHASH UCHUN RUXSAT (DYUR)</p>
+                    <button class="free__button upper white mybtn get-form" data-meta="IMTIHONGA YOZILING РПВ и ВНЖ">IMTIHONGA YOZILING</button>
+                </li>
+                <li class="free__item">
+                    <p class="free__text">ROSSIYA FUQAROLIGINI OLISH
+                        <br> </p>
+                    <button class="free__button upper white mybtn get-form" data-meta="IMTIHONGA YOZILING гражданство">IMTIHONGA YOZILING</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="what">
+        <div class="container">
+            <h2 class="what__title upper">
+                SERTIFIKAT NEGA KERAK?
+            </h2>
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-2 col-md-offset-1 col-xs-4"><img src="img/gerb.png" alt="Герб" class="what__img"> </div>
+                <div class="col-md-7 col-xs-12">
+                    <p class="what__text">2002 yil 25 iyuldagi 115-sonli Rossiya Federal qonuniga asosan"Cnet el fuqorolarining Rossiya federaciyasidagi huquqlari”togrisidagi qaroriga asosan chet el fuqarolarini 2015 yildan buyon PATENT, VAQTINCHALIK YASHASH UCHUN RUXSAT, DOIMIY YASHASH UCHUN RUXSAT,ROSSIYA FUQAROLIGI</p>
+                    <p class="what__text">ni olish uchun rus tilini, Rossiya tarihini va qoninlarini bilishligi to'g'risini tasdiqlovchi hujjat olishlari shart.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sent">
+        <div class="container">
+            <h2 class="sent__title upper">
+                1 soat ichida sertifikat oling
+            </h2>
+            <form method="post" class="sent__form">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-3 col-xs-12">
+                        <input type="text" name="meta" data-meta="IMTIHONDAN OTISH" hidden="hidden">
+                        <div class="group">
+                            <input type="text" name="name" autocomplete="off" placeholder="-" required=""> <span class="bar"></span>
+                            <label>ISM*</label>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <div class="group">
+                            <input type="tel" name="phone" class="input--tel" autocomplete="off" placeholder="-" minlength="16" required="" maxlength="16"> <span class="bar"></span>
+                            <label>TELEFON*</label>
+                        </div>
+                    </div>
+                    <div id="form_result"></div>
+                    <div class="col-md-3 col-xs-12">
+                        <input id="submit" type="submit" class="sent__button mybtn white upper" value="IMTIHONDAN OTISH"> </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="review" id="review">
+        <div class="container">
+            <h2 class="review__title upper">Mijozlarimizning sharhi</h2>
+            <div class="row align-items-center">
+                <div class="col-md-5 col-xs-12">
+                    <div class="review__people active" data-video="https://www.youtube.com/embed/HFMsvVwmjEQ?rel=0">
+                        <div class="review__men"> <img src="/img/review/1.jpg" alt="" class="review__men_pic"> </div>
+                        <div class="review__fio">
+                            <label>ALIQULOV
+                                <br>ASLIDDIN</label> <img src="/img/uzbekistan.svg" alt=""> </div>
+                        <div class="tubec">
+                            <iframe width="100%" src="https://www.youtube.com/embed/HFMsvVwmjEQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="review__people" data-video="https://www.youtube.com/embed/gdBSyMsBDhc?rel=0">
+                        <div class="review__men"> <img src="/img/review/2.jpg" alt="" class="review__men_pic"> </div>
+                        <div class="review__fio">
+                            <label>SE
+                                <br>GODUN</label> <img src="/img/china.svg" alt=""> </div>
+                        <div class="tubec">
+                            <iframe width="100%" src="https://www.youtube.com/embed/gdBSyMsBDhc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="review__people" data-video="https://www.youtube.com/embed/XGuiwUmvJ_0?rel=0">
+                        <div class="review__men"> <img src="/img/review/3.jpg" alt="" class="review__men_pic"> </div>
+                        <div class="review__fio">
+                            <label>MALIKSHOEV MURIVAT
+                                <br>RAKHMATOVISH</label> <img src="/img/tajikistan.svg" alt=""> </div>
+                        <div class="tubec">
+                            <iframe width="100%" src="https://www.youtube.com/embed/XGuiwUmvJ_0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="review__people" data-video="https://www.youtube.com/embed/fnGBxsPr1So?rel=0">
+                        <div class="review__men"> <img src="/img/review/4.jpg" alt="" class="review__men_pic"> </div>
+                        <div class="review__fio">
+                            <label>KULMATOV YUSUP
+                                <br>SHERMATOVISH</label> <img src="/img/uzbekistan.svg" alt=""> </div>
+                        <div class="tubec">
+                            <iframe width="100%" src="https://www.youtube.com/embed/fnGBxsPr1So?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="review__people" data-video="https://www.youtube.com/embed/M-6lEdjtRCU?rel=0">
+                        <div class="review__men"> <img src="/img/review/5.jpg" alt="" class="review__men_pic"> </div>
+                        <div class="review__fio">
+                            <label>Muratova Azimgul
+                            <br>Ravshanbekovna</label> <img src="/img/kyrgyzstan.svg" alt=""> </div>
+                        <div class="tubec">
+                            <iframe width="100%" src="https://www.youtube.com/embed/M-6lEdjtRCU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mob-hide">
+                    <div class="review__youtube">
+                        <iframe width="100%" src="https://www.youtube.com/embed/HFMsvVwmjEQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="answer">
+        <div class="container">
+            <h2 class="upper">SIZNI QIZIQTIRUVCHI SAVOLLARGA JAVOB</h2>
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1 col-xs-10 col-xs-offset-1">
+                    <svg width="450" height="74" viewBox="0 0 450 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="444.5" height="61.5927" rx="10" transform="translate(5.37012)" fill="#006AFF"/>
+                    <path class="first" d="M24.7173 12.4179L5.36961 0C1.73159 11.0933 -3.53588 27.8546 3.36941 23.8252C12.8186 18.3113 17.6066 13.4113 24.7173 12.4179Z" transform="translate(0 49.1748)" fill="#006AFF"/>
+                    <path class="second" d="M55.4434 33.216C58.0894 33.216 59.6014 31.758 60.4654 30.264L58.2694 29.202C57.7654 30.192 56.6854 30.948 55.4434 30.948C53.2654 30.948 51.6814 29.274 51.6814 27.006C51.6814 24.738 53.2654 23.064 55.4434 23.064C56.6854 23.064 57.7654 23.838 58.2694 24.81L60.4654 23.73C59.6194 22.236 58.0894 20.796 55.4434 20.796C51.8434 20.796 49.0534 23.316 49.0534 27.006C49.0534 30.696 51.8434 33.216 55.4434 33.216ZM70.1048 33V26.826C70.1048 25.134 69.1868 24.09 67.2788 24.09C65.8568 24.09 64.7768 24.774 64.2188 25.44V20.994H61.9328V33H64.2188V27.15C64.6148 26.628 65.3168 26.124 66.1988 26.124C67.1888 26.124 67.8188 26.502 67.8188 27.708V33H70.1048ZM76.4602 33.216C77.8102 33.216 79.1782 32.802 80.0422 32.01L79.0342 30.534C78.4762 31.074 77.4502 31.398 76.7122 31.398C75.2362 31.398 74.3542 30.48 74.2102 29.382H80.6722V28.878C80.6722 26.034 78.9082 24.09 76.3162 24.09C73.6702 24.09 71.8162 26.124 71.8162 28.644C71.8162 31.434 73.8142 33.216 76.4602 33.216ZM78.4582 27.834H74.1742C74.2822 26.97 74.8942 25.908 76.3162 25.908C77.8282 25.908 78.4042 27.006 78.4582 27.834ZM85.2395 33.216C86.1935 33.216 86.8055 32.964 87.1475 32.658L86.6615 30.93C86.5355 31.056 86.2115 31.182 85.8695 31.182C85.3655 31.182 85.0775 30.768 85.0775 30.228V26.304H86.8415V24.306H85.0775V21.93H82.7735V24.306H81.3335V26.304H82.7735V30.84C82.7735 32.388 83.6375 33.216 85.2395 33.216ZM97.097 33.216C98.447 33.216 99.815 32.802 100.679 32.01L99.671 30.534C99.113 31.074 98.087 31.398 97.349 31.398C95.873 31.398 94.991 30.48 94.847 29.382H101.309V28.878C101.309 26.034 99.545 24.09 96.953 24.09C94.307 24.09 92.453 26.124 92.453 28.644C92.453 31.434 94.451 33.216 97.097 33.216ZM99.095 27.834H94.811C94.919 26.97 95.531 25.908 96.953 25.908C98.465 25.908 99.041 27.006 99.095 27.834ZM105.246 33V20.994H102.96V33H105.246ZM114.926 33V26.304H116.69V24.306H114.926V23.838C114.926 23.028 115.376 22.614 116.006 22.614C116.42 22.614 116.726 22.74 116.96 22.974L117.824 21.624C117.266 21.03 116.384 20.814 115.556 20.814C113.81 20.814 112.622 21.984 112.622 23.838V24.306H111.182V26.304H112.622V33H114.926ZM126.161 33V24.306H123.875V30.192C123.479 30.696 122.777 31.182 121.895 31.182C120.923 31.182 120.293 30.786 120.293 29.58V24.306H118.007V30.48C118.007 32.172 118.907 33.216 120.815 33.216C122.237 33.216 123.281 32.568 123.875 31.902V33H126.161ZM132.409 31.182C131.113 31.182 130.213 30.156 130.213 28.644C130.213 27.15 131.113 26.124 132.409 26.124C133.147 26.124 133.993 26.556 134.371 27.114V30.192C133.993 30.732 133.147 31.182 132.409 31.182ZM131.689 33.216C132.715 33.216 133.669 32.784 134.371 31.884V36.312H136.675V24.306H134.371V25.404C133.705 24.558 132.751 24.09 131.689 24.09C129.457 24.09 127.837 25.746 127.837 28.644C127.837 31.542 129.457 33.216 131.689 33.216ZM146.431 33V27.384C146.431 24.882 144.613 24.09 142.633 24.09C141.265 24.09 139.897 24.522 138.835 25.458L139.699 26.988C140.437 26.304 141.301 25.962 142.237 25.962C143.389 25.962 144.145 26.538 144.145 27.42V28.59C143.569 27.906 142.543 27.528 141.391 27.528C140.005 27.528 138.367 28.302 138.367 30.336C138.367 32.28 140.005 33.216 141.391 33.216C142.525 33.216 143.551 32.802 144.145 32.1V33H146.431ZM142.309 31.668C141.409 31.668 140.671 31.2 140.671 30.39C140.671 29.544 141.409 29.076 142.309 29.076C143.047 29.076 143.767 29.328 144.145 29.832V30.912C143.767 31.416 143.047 31.668 142.309 31.668ZM150.984 33V27.258C151.362 26.7 152.37 26.268 153.126 26.268C153.378 26.268 153.594 26.286 153.756 26.322V24.09C152.676 24.09 151.596 24.72 150.984 25.494V24.306H148.698V33H150.984ZM159.217 33.216C162.097 33.216 163.825 31.128 163.825 28.644C163.825 26.178 162.097 24.09 159.217 24.09C156.355 24.09 154.627 26.178 154.627 28.644C154.627 31.128 156.355 33.216 159.217 33.216ZM159.217 31.182C157.795 31.182 157.003 30.012 157.003 28.644C157.003 27.294 157.795 26.124 159.217 26.124C160.639 26.124 161.449 27.294 161.449 28.644C161.449 30.012 160.639 31.182 159.217 31.182ZM168.653 33.216C171.065 33.216 172.415 32.01 172.415 30.426C172.415 26.916 167.267 27.996 167.267 26.7C167.267 26.214 167.807 25.836 168.635 25.836C169.697 25.836 170.687 26.286 171.209 26.844L172.127 25.278C171.263 24.594 170.093 24.09 168.617 24.09C166.331 24.09 165.053 25.368 165.053 26.826C165.053 30.246 170.219 29.076 170.219 30.516C170.219 31.056 169.751 31.452 168.761 31.452C167.681 31.452 166.385 30.858 165.755 30.264L164.765 31.866C165.683 32.712 167.141 33.216 168.653 33.216ZM175.233 23.37C175.989 23.37 176.601 22.758 176.601 22.002C176.601 21.246 175.989 20.652 175.233 20.652C174.495 20.652 173.865 21.246 173.865 22.002C173.865 22.758 174.495 23.37 175.233 23.37ZM176.385 33V24.306H174.099V33H176.385ZM186.806 33V26.862C186.806 25.17 185.888 24.09 183.98 24.09C182.558 24.09 181.496 24.774 180.938 25.44V24.306H178.652V33H180.938V27.15C181.316 26.628 182.018 26.124 182.918 26.124C183.89 26.124 184.52 26.538 184.52 27.744V33H186.806ZM190.209 23.37C190.965 23.37 191.577 22.758 191.577 22.002C191.577 21.246 190.965 20.652 190.209 20.652C189.471 20.652 188.841 21.246 188.841 22.002C188.841 22.758 189.471 23.37 190.209 23.37ZM191.361 33V24.306H189.075V33H191.361ZM196.76 33.216C199.172 33.216 200.522 32.01 200.522 30.426C200.522 26.916 195.374 27.996 195.374 26.7C195.374 26.214 195.914 25.836 196.742 25.836C197.804 25.836 198.794 26.286 199.316 26.844L200.234 25.278C199.37 24.594 198.2 24.09 196.724 24.09C194.438 24.09 193.16 25.368 193.16 26.826C193.16 30.246 198.326 29.076 198.326 30.516C198.326 31.056 197.858 31.452 196.868 31.452C195.788 31.452 194.492 30.858 193.862 30.264L192.872 31.866C193.79 32.712 195.248 33.216 196.76 33.216ZM203.34 23.37C204.096 23.37 204.708 22.758 204.708 22.002C204.708 21.246 204.096 20.652 203.34 20.652C202.602 20.652 201.972 21.246 201.972 22.002C201.972 22.758 202.602 23.37 203.34 23.37ZM204.492 33V24.306H202.206V33H204.492ZM214.28 33.216C215.234 33.216 215.846 32.964 216.188 32.658L215.702 30.93C215.576 31.056 215.252 31.182 214.91 31.182C214.406 31.182 214.118 30.768 214.118 30.228V26.304H215.882V24.306H214.118V21.93H211.814V24.306H210.374V26.304H211.814V30.84C211.814 32.388 212.678 33.216 214.28 33.216ZM221.533 33.216C222.883 33.216 224.251 32.802 225.115 32.01L224.107 30.534C223.549 31.074 222.523 31.398 221.785 31.398C220.309 31.398 219.427 30.48 219.283 29.382H225.745V28.878C225.745 26.034 223.981 24.09 221.389 24.09C218.743 24.09 216.889 26.124 216.889 28.644C216.889 31.434 218.887 33.216 221.533 33.216ZM223.531 27.834H219.247C219.355 26.97 219.967 25.908 221.389 25.908C222.901 25.908 223.477 27.006 223.531 27.834ZM230.528 33.216C232.94 33.216 234.29 32.01 234.29 30.426C234.29 26.916 229.142 27.996 229.142 26.7C229.142 26.214 229.682 25.836 230.51 25.836C231.572 25.836 232.562 26.286 233.084 26.844L234.002 25.278C233.138 24.594 231.968 24.09 230.492 24.09C228.206 24.09 226.928 25.368 226.928 26.826C226.928 30.246 232.094 29.076 232.094 30.516C232.094 31.056 231.626 31.452 230.636 31.452C229.556 31.452 228.26 30.858 227.63 30.264L226.64 31.866C227.558 32.712 229.016 33.216 230.528 33.216ZM238.89 33.216C239.844 33.216 240.456 32.964 240.798 32.658L240.312 30.93C240.186 31.056 239.862 31.182 239.52 31.182C239.016 31.182 238.728 30.768 238.728 30.228V26.304H240.492V24.306H238.728V21.93H236.424V24.306H234.984V26.304H236.424V30.84C236.424 32.388 237.288 33.216 238.89 33.216ZM249.793 33.216C252.205 33.216 253.555 32.01 253.555 30.426C253.555 26.916 248.407 27.996 248.407 26.7C248.407 26.214 248.947 25.836 249.775 25.836C250.837 25.836 251.827 26.286 252.349 26.844L253.267 25.278C252.403 24.594 251.233 24.09 249.757 24.09C247.471 24.09 246.193 25.368 246.193 26.826C246.193 30.246 251.359 29.076 251.359 30.516C251.359 31.056 250.891 31.452 249.901 31.452C248.821 31.452 247.525 30.858 246.895 30.264L245.905 31.866C246.823 32.712 248.281 33.216 249.793 33.216ZM256.373 23.37C257.129 23.37 257.741 22.758 257.741 22.002C257.741 21.246 257.129 20.652 256.373 20.652C255.635 20.652 255.005 21.246 255.005 22.002C255.005 22.758 255.635 23.37 256.373 23.37ZM257.525 33V24.306H255.239V33H257.525ZM267.946 33V26.862C267.946 25.17 267.028 24.09 265.12 24.09C263.698 24.09 262.636 24.774 262.078 25.44V24.306H259.792V33H262.078V27.15C262.456 26.628 263.158 26.124 264.058 26.124C265.03 26.124 265.66 26.538 265.66 27.744V33H267.946ZM274.248 33.216C277.128 33.216 278.856 31.128 278.856 28.644C278.856 26.178 277.128 24.09 274.248 24.09C271.386 24.09 269.658 26.178 269.658 28.644C269.658 31.128 271.386 33.216 274.248 33.216ZM274.248 31.182C272.826 31.182 272.034 30.012 272.034 28.644C272.034 27.294 272.826 26.124 274.248 26.124C275.67 26.124 276.48 27.294 276.48 28.644C276.48 30.012 275.67 31.182 274.248 31.182ZM285.268 33L288.76 24.306H286.294L284.026 30.354L281.758 24.306H279.31L282.802 33H285.268ZM290.914 23.37C291.67 23.37 292.282 22.758 292.282 22.002C292.282 21.246 291.67 20.652 290.914 20.652C290.176 20.652 289.546 21.246 289.546 22.002C289.546 22.758 290.176 23.37 290.914 23.37ZM292.066 33V24.306H289.78V33H292.066ZM302.613 33V20.994H300.309V25.422C299.625 24.54 298.653 24.09 297.627 24.09C295.413 24.09 293.775 25.818 293.775 28.662C293.775 31.56 295.431 33.216 297.627 33.216C298.671 33.216 299.625 32.748 300.309 31.884V33H302.613ZM298.329 31.182C297.033 31.182 296.133 30.156 296.133 28.662C296.133 27.15 297.033 26.124 298.329 26.124C299.103 26.124 299.931 26.538 300.309 27.114V30.192C299.931 30.768 299.103 31.182 298.329 31.182ZM312.386 33V27.384C312.386 24.882 310.568 24.09 308.588 24.09C307.22 24.09 305.852 24.522 304.79 25.458L305.654 26.988C306.392 26.304 307.256 25.962 308.192 25.962C309.344 25.962 310.1 26.538 310.1 27.42V28.59C309.524 27.906 308.498 27.528 307.346 27.528C305.96 27.528 304.322 28.302 304.322 30.336C304.322 32.28 305.96 33.216 307.346 33.216C308.48 33.216 309.506 32.802 310.1 32.1V33H312.386ZM308.264 31.668C307.364 31.668 306.626 31.2 306.626 30.39C306.626 29.544 307.364 29.076 308.264 29.076C309.002 29.076 309.722 29.328 310.1 29.832V30.912C309.722 31.416 309.002 31.668 308.264 31.668ZM322.808 33V26.862C322.808 25.17 321.89 24.09 319.982 24.09C318.56 24.09 317.498 24.774 316.94 25.44V24.306H314.654V33H316.94V27.15C317.318 26.628 318.02 26.124 318.92 26.124C319.892 26.124 320.522 26.538 320.522 27.744V33H322.808ZM333.715 33.216C336.595 33.216 338.323 31.128 338.323 28.644C338.323 26.178 336.595 24.09 333.715 24.09C330.853 24.09 329.125 26.178 329.125 28.644C329.125 31.128 330.853 33.216 333.715 33.216ZM333.715 31.182C332.293 31.182 331.501 30.012 331.501 28.644C331.501 27.294 332.293 26.124 333.715 26.124C335.137 26.124 335.947 27.294 335.947 28.644C335.947 30.012 335.137 31.182 333.715 31.182ZM342.935 33.216C343.889 33.216 344.501 32.964 344.843 32.658L344.357 30.93C344.231 31.056 343.907 31.182 343.565 31.182C343.061 31.182 342.773 30.768 342.773 30.228V26.304H344.537V24.306H342.773V21.93H340.469V24.306H339.029V26.304H340.469V30.84C340.469 32.388 341.333 33.216 342.935 33.216ZM354.597 33L351.051 28.248L354.489 24.306H351.681L348.387 28.176V20.994H346.101V33H348.387V30.768L349.431 29.652L351.735 33H354.597ZM363.24 33V27.384C363.24 24.882 361.422 24.09 359.442 24.09C358.074 24.09 356.706 24.522 355.644 25.458L356.508 26.988C357.246 26.304 358.11 25.962 359.046 25.962C360.198 25.962 360.954 26.538 360.954 27.42V28.59C360.378 27.906 359.352 27.528 358.2 27.528C356.814 27.528 355.176 28.302 355.176 30.336C355.176 32.28 356.814 33.216 358.2 33.216C359.334 33.216 360.36 32.802 360.954 32.1V33H363.24ZM359.118 31.668C358.218 31.668 357.48 31.2 357.48 30.39C357.48 29.544 358.218 29.076 359.118 29.076C359.856 29.076 360.576 29.328 360.954 29.832V30.912C360.576 31.416 359.856 31.668 359.118 31.668ZM372.221 33V31.002H368.171L372.149 25.962V24.306H365.129V26.304H369.053L365.129 31.29V33H372.221ZM375.254 23.37C376.01 23.37 376.622 22.758 376.622 22.002C376.622 21.246 376.01 20.652 375.254 20.652C374.516 20.652 373.886 21.246 373.886 22.002C373.886 22.758 374.516 23.37 375.254 23.37ZM376.406 33V24.306H374.12V33H376.406ZM381.805 33.216C384.217 33.216 385.567 32.01 385.567 30.426C385.567 26.916 380.419 27.996 380.419 26.7C380.419 26.214 380.959 25.836 381.787 25.836C382.849 25.836 383.839 26.286 384.361 26.844L385.279 25.278C384.415 24.594 383.245 24.09 381.769 24.09C379.483 24.09 378.205 25.368 378.205 26.826C378.205 30.246 383.371 29.076 383.371 30.516C383.371 31.056 382.903 31.452 381.913 31.452C380.833 31.452 379.537 30.858 378.907 30.264L377.917 31.866C378.835 32.712 380.293 33.216 381.805 33.216ZM395.423 33V26.826C395.423 25.134 394.505 24.09 392.597 24.09C391.175 24.09 390.095 24.774 389.537 25.44V20.994H387.251V33H389.537V27.15C389.933 26.628 390.635 26.124 391.517 26.124C392.507 26.124 393.137 26.502 393.137 27.708V33H395.423Z" transform="translate(4.86914 2)" fill="white"/>
+                    </svg>
+                </div>
+                <div class="col-md-5 col-xs-10 col-xs-offset-1">
+                    <svg width="450" height="74" viewBox="0 0 450 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="444.5" height="61.5927" rx="10" transform="translate(5.36963)" fill="#E9E9E9"/>
+                    <path class="first" d="M24.7173 12.4179L5.36961 0C1.73159 11.0933 -3.53588 27.8546 3.36941 23.8252C12.8186 18.3113 17.6066 13.4113 24.7173 12.4179Z" transform="translate(0 49.1748)" fill="#E9E9E9"/>
+                    <path class="second" d="M103.07 33L97.9765 26.628L102.746 20.994H99.5965L95.3485 26.358V20.994H92.7925V33H95.3485V29.31L96.2845 28.194L99.9205 33H103.07ZM105.316 23.37C106.072 23.37 106.684 22.758 106.684 22.002C106.684 21.246 106.072 20.652 105.316 20.652C104.578 20.652 103.948 21.246 103.948 22.002C103.948 22.758 104.578 23.37 105.316 23.37ZM106.468 33V24.306H104.182V33H106.468ZM121.821 33V26.718C121.821 24.936 120.867 24.09 119.265 24.09C117.933 24.09 116.781 24.882 116.277 25.674C115.953 24.684 115.143 24.09 113.865 24.09C112.533 24.09 111.381 24.918 111.021 25.44V24.306H108.735V33H111.021V27.15C111.363 26.664 112.029 26.124 112.821 26.124C113.757 26.124 114.117 26.7 114.117 27.51V33H116.421V27.132C116.745 26.664 117.411 26.124 118.221 26.124C119.157 26.124 119.517 26.7 119.517 27.51V33H121.821ZM126.349 33V20.994H124.063V33H126.349ZM136.121 33V27.384C136.121 24.882 134.303 24.09 132.323 24.09C130.955 24.09 129.587 24.522 128.525 25.458L129.389 26.988C130.127 26.304 130.991 25.962 131.927 25.962C133.079 25.962 133.835 26.538 133.835 27.42V28.59C133.259 27.906 132.233 27.528 131.081 27.528C129.695 27.528 128.057 28.302 128.057 30.336C128.057 32.28 129.695 33.216 131.081 33.216C132.215 33.216 133.241 32.802 133.835 32.1V33H136.121ZM131.999 31.668C131.099 31.668 130.361 31.2 130.361 30.39C130.361 29.544 131.099 29.076 131.999 29.076C132.737 29.076 133.457 29.328 133.835 29.832V30.912C133.457 31.416 132.737 31.668 131.999 31.668ZM140.675 33V27.258C141.053 26.7 142.061 26.268 142.817 26.268C143.069 26.268 143.285 26.286 143.447 26.322V24.09C142.367 24.09 141.287 24.72 140.675 25.494V24.306H138.389V33H140.675ZM150.615 23.37C151.371 23.37 151.983 22.758 151.983 22.002C151.983 21.246 151.371 20.652 150.615 20.652C149.877 20.652 149.247 21.246 149.247 22.002C149.247 22.758 149.877 23.37 150.615 23.37ZM151.767 33V24.306H149.481V33H151.767ZM167.119 33V26.718C167.119 24.936 166.165 24.09 164.563 24.09C163.231 24.09 162.079 24.882 161.575 25.674C161.251 24.684 160.441 24.09 159.163 24.09C157.831 24.09 156.679 24.918 156.319 25.44V24.306H154.033V33H156.319V27.15C156.661 26.664 157.327 26.124 158.119 26.124C159.055 26.124 159.415 26.7 159.415 27.51V33H161.719V27.132C162.043 26.664 162.709 26.124 163.519 26.124C164.455 26.124 164.815 26.7 164.815 27.51V33H167.119ZM172.278 33.216C173.232 33.216 173.844 32.964 174.186 32.658L173.7 30.93C173.574 31.056 173.25 31.182 172.908 31.182C172.404 31.182 172.116 30.768 172.116 30.228V26.304H173.88V24.306H172.116V21.93H169.812V24.306H168.372V26.304H169.812V30.84C169.812 32.388 170.676 33.216 172.278 33.216ZM176.578 23.37C177.334 23.37 177.946 22.758 177.946 22.002C177.946 21.246 177.334 20.652 176.578 20.652C175.84 20.652 175.21 21.246 175.21 22.002C175.21 22.758 175.84 23.37 176.578 23.37ZM177.73 33V24.306H175.444V33H177.73ZM188.168 33V26.826C188.168 25.134 187.25 24.09 185.342 24.09C183.92 24.09 182.84 24.774 182.282 25.44V20.994H179.996V33H182.282V27.15C182.678 26.628 183.38 26.124 184.262 26.124C185.252 26.124 185.882 26.502 185.882 27.708V33H188.168ZM194.47 33.216C197.35 33.216 199.078 31.128 199.078 28.644C199.078 26.178 197.35 24.09 194.47 24.09C191.608 24.09 189.88 26.178 189.88 28.644C189.88 31.128 191.608 33.216 194.47 33.216ZM194.47 31.182C193.048 31.182 192.256 30.012 192.256 28.644C192.256 27.294 193.048 26.124 194.47 26.124C195.892 26.124 196.702 27.294 196.702 28.644C196.702 30.012 195.892 31.182 194.47 31.182ZM208.928 33V26.862C208.928 25.17 208.01 24.09 206.102 24.09C204.68 24.09 203.618 24.774 203.06 25.44V24.306H200.774V33H203.06V27.15C203.438 26.628 204.14 26.124 205.04 26.124C206.012 26.124 206.642 26.538 206.642 27.744V33H208.928ZM218.719 33.216C219.673 33.216 220.285 32.964 220.627 32.658L220.141 30.93C220.015 31.056 219.691 31.182 219.349 31.182C218.845 31.182 218.557 30.768 218.557 30.228V26.304H220.321V24.306H218.557V21.93H216.253V24.306H214.813V26.304H216.253V30.84C216.253 32.388 217.117 33.216 218.719 33.216ZM225.917 33.216C228.797 33.216 230.525 31.128 230.525 28.644C230.525 26.178 228.797 24.09 225.917 24.09C223.055 24.09 221.327 26.178 221.327 28.644C221.327 31.128 223.055 33.216 225.917 33.216ZM225.917 31.182C224.495 31.182 223.703 30.012 223.703 28.644C223.703 27.294 224.495 26.124 225.917 26.124C227.339 26.124 228.149 27.294 228.149 28.644C228.149 30.012 227.339 31.182 225.917 31.182ZM237.189 33.216C239.421 33.216 241.041 31.542 241.041 28.644C241.041 25.746 239.421 24.09 237.189 24.09C236.127 24.09 235.173 24.558 234.507 25.404V24.306H232.221V36.312H234.507V31.884C235.209 32.784 236.163 33.216 237.189 33.216ZM236.469 31.182C235.731 31.182 234.885 30.732 234.507 30.192V27.114C234.885 26.556 235.731 26.124 236.469 26.124C237.783 26.124 238.665 27.15 238.665 28.644C238.665 30.156 237.783 31.182 236.469 31.182ZM245.847 33.216C248.259 33.216 249.609 32.01 249.609 30.426C249.609 26.916 244.461 27.996 244.461 26.7C244.461 26.214 245.001 25.836 245.829 25.836C246.891 25.836 247.881 26.286 248.403 26.844L249.321 25.278C248.457 24.594 247.287 24.09 245.811 24.09C243.525 24.09 242.247 25.368 242.247 26.826C242.247 30.246 247.413 29.076 247.413 30.516C247.413 31.056 246.945 31.452 245.955 31.452C244.875 31.452 243.579 30.858 242.949 30.264L241.959 31.866C242.877 32.712 244.335 33.216 245.847 33.216ZM259.465 33V26.826C259.465 25.134 258.547 24.09 256.639 24.09C255.217 24.09 254.137 24.774 253.579 25.44V20.994H251.293V33H253.579V27.15C253.975 26.628 254.677 26.124 255.559 26.124C256.549 26.124 257.179 26.502 257.179 27.708V33H259.465ZM262.869 23.37C263.625 23.37 264.237 22.758 264.237 22.002C264.237 21.246 263.625 20.652 262.869 20.652C262.131 20.652 261.501 21.246 261.501 22.002C261.501 22.758 262.131 23.37 262.869 23.37ZM264.021 33V24.306H261.735V33H264.021ZM268.573 33V27.258C268.951 26.7 269.959 26.268 270.715 26.268C270.967 26.268 271.183 26.286 271.345 26.322V24.09C270.265 24.09 269.185 24.72 268.573 25.494V24.306H266.287V33H268.573ZM273.908 23.37C274.664 23.37 275.276 22.758 275.276 22.002C275.276 21.246 274.664 20.652 273.908 20.652C273.17 20.652 272.54 21.246 272.54 22.002C272.54 22.758 273.17 23.37 273.908 23.37ZM275.06 33V24.306H272.774V33H275.06ZM280.458 33.216C282.87 33.216 284.22 32.01 284.22 30.426C284.22 26.916 279.072 27.996 279.072 26.7C279.072 26.214 279.612 25.836 280.44 25.836C281.502 25.836 282.492 26.286 283.014 26.844L283.932 25.278C283.068 24.594 281.898 24.09 280.422 24.09C278.136 24.09 276.858 25.368 276.858 26.826C276.858 30.246 282.024 29.076 282.024 30.516C282.024 31.056 281.556 31.452 280.566 31.452C279.486 31.452 278.19 30.858 277.56 30.264L276.57 31.866C277.488 32.712 278.946 33.216 280.458 33.216ZM294.077 33V26.826C294.077 25.134 293.159 24.09 291.251 24.09C289.829 24.09 288.749 24.774 288.191 25.44V20.994H285.905V33H288.191V27.15C288.587 26.628 289.289 26.124 290.171 26.124C291.161 26.124 291.791 26.502 291.791 27.708V33H294.077ZM309.447 33L305.901 28.248L309.339 24.306H306.531L303.237 28.176V20.994H300.951V33H303.237V30.768L304.281 29.652L306.585 33H309.447ZM314.565 33.216C315.915 33.216 317.283 32.802 318.147 32.01L317.139 30.534C316.581 31.074 315.555 31.398 314.817 31.398C313.341 31.398 312.459 30.48 312.315 29.382H318.777V28.878C318.777 26.034 317.013 24.09 314.421 24.09C311.775 24.09 309.921 26.124 309.921 28.644C309.921 31.434 311.919 33.216 314.565 33.216ZM316.563 27.834H312.279C312.387 26.97 312.999 25.908 314.421 25.908C315.933 25.908 316.509 27.006 316.563 27.834ZM322.714 33V27.258C323.092 26.7 324.1 26.268 324.856 26.268C325.108 26.268 325.324 26.286 325.486 26.322V24.09C324.406 24.09 323.326 24.72 322.714 25.494V24.306H320.428V33H322.714ZM334.42 33V27.384C334.42 24.882 332.602 24.09 330.622 24.09C329.254 24.09 327.886 24.522 326.824 25.458L327.688 26.988C328.426 26.304 329.29 25.962 330.226 25.962C331.378 25.962 332.134 26.538 332.134 27.42V28.59C331.558 27.906 330.532 27.528 329.38 27.528C327.994 27.528 326.356 28.302 326.356 30.336C326.356 32.28 327.994 33.216 329.38 33.216C330.514 33.216 331.54 32.802 332.134 32.1V33H334.42ZM330.298 31.668C329.398 31.668 328.66 31.2 328.66 30.39C328.66 29.544 329.398 29.076 330.298 29.076C331.036 29.076 331.756 29.328 332.134 29.832V30.912C331.756 31.416 331.036 31.668 330.298 31.668ZM345.184 33L341.638 28.248L345.076 24.306H342.268L338.974 28.176V20.994H336.688V33H338.974V30.768L340.018 29.652L342.322 33H345.184ZM348.391 29.328L350.353 28.752C350.173 28.59 350.029 28.284 350.029 27.996C350.029 26.484 353.035 26.286 353.035 23.658C353.035 21.984 351.613 20.814 349.291 20.814C347.743 20.814 346.303 21.444 345.349 22.56L346.807 24.198C347.365 23.532 348.121 23.082 349.021 23.082C350.011 23.082 350.425 23.55 350.425 24.108C350.425 25.35 347.797 25.602 347.797 27.744C347.797 28.374 348.013 28.914 348.391 29.328ZM349.255 33.198C350.047 33.198 350.713 32.532 350.713 31.74C350.713 30.948 350.047 30.282 349.255 30.282C348.463 30.282 347.797 30.948 347.797 31.74C347.797 32.532 348.463 33.198 349.255 33.198Z" transform="translate(4.86914 2)" fill="black"/>
+                    </svg>
+
+                </div>
+                <div class="col-md-5 col-md-offset-1 col-xs-10 col-xs-offset-1">
+                    <svg width="450" height="74" viewBox="0 0 450 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="444.5" height="61.5927" rx="10" transform="translate(5.37012)" fill="#E9E9E9"/>
+                    <path class="first" d="M24.7173 12.4179L5.36961 0C1.73159 11.0933 -3.53588 27.8546 3.36941 23.8252C12.8186 18.3113 17.6066 13.4113 24.7173 12.4179Z" transform="translate(0 49.1748)" fill="#E9E9E9"/>
+                    <path class="second" d="M89.208 33.216C90.252 33.216 91.206 33 92.052 32.622L93.024 33.738L94.806 32.28L93.924 31.254C94.914 30.174 95.49 28.698 95.49 27.006C95.49 23.388 92.844 20.796 89.208 20.796C85.59 20.796 82.944 23.388 82.944 27.006C82.944 30.624 85.59 33.216 89.208 33.216ZM89.208 30.948C86.994 30.948 85.572 29.238 85.572 27.006C85.572 24.756 86.994 23.064 89.208 23.064C91.422 23.064 92.862 24.756 92.862 27.006C92.862 27.87 92.646 28.662 92.25 29.31L90.918 27.744L89.154 29.202L90.468 30.75C90.072 30.876 89.658 30.948 89.208 30.948ZM104.736 33V27.384C104.736 24.882 102.918 24.09 100.938 24.09C99.5697 24.09 98.2017 24.522 97.1397 25.458L98.0037 26.988C98.7417 26.304 99.6057 25.962 100.542 25.962C101.694 25.962 102.45 26.538 102.45 27.42V28.59C101.874 27.906 100.848 27.528 99.6957 27.528C98.3097 27.528 96.6717 28.302 96.6717 30.336C96.6717 32.28 98.3097 33.216 99.6957 33.216C100.83 33.216 101.856 32.802 102.45 32.1V33H104.736ZM100.614 31.668C99.7137 31.668 98.9757 31.2 98.9757 30.39C98.9757 29.544 99.7137 29.076 100.614 29.076C101.352 29.076 102.072 29.328 102.45 29.832V30.912C102.072 31.416 101.352 31.668 100.614 31.668ZM106.697 36.402C106.985 36.474 107.561 36.528 107.831 36.528C109.325 36.492 110.477 36.06 111.125 34.422L115.211 24.306H112.745L110.477 30.354L108.209 24.306H105.761L109.289 33.126L108.965 33.864C108.749 34.332 108.353 34.494 107.759 34.494C107.543 34.494 107.237 34.44 107.039 34.35L106.697 36.402ZM119.364 33.216C121.776 33.216 123.126 32.01 123.126 30.426C123.126 26.916 117.978 27.996 117.978 26.7C117.978 26.214 118.518 25.836 119.346 25.836C120.408 25.836 121.398 26.286 121.92 26.844L122.838 25.278C121.974 24.594 120.804 24.09 119.328 24.09C117.042 24.09 115.764 25.368 115.764 26.826C115.764 30.246 120.93 29.076 120.93 30.516C120.93 31.056 120.462 31.452 119.472 31.452C118.392 31.452 117.096 30.858 116.466 30.264L115.476 31.866C116.394 32.712 117.852 33.216 119.364 33.216ZM125.944 23.37C126.7 23.37 127.312 22.758 127.312 22.002C127.312 21.246 126.7 20.652 125.944 20.652C125.206 20.652 124.576 21.246 124.576 22.002C124.576 22.758 125.206 23.37 125.944 23.37ZM127.096 33V24.306H124.81V33H127.096ZM142.14 33V26.826C142.14 25.134 141.222 24.09 139.314 24.09C137.892 24.09 136.812 24.774 136.254 25.44V20.994H133.968V33H136.254V27.15C136.65 26.628 137.352 26.124 138.234 26.124C139.224 26.124 139.854 26.502 139.854 27.708V33H142.14ZM152.563 33V24.306H150.277V30.192C149.881 30.696 149.179 31.182 148.297 31.182C147.325 31.182 146.695 30.786 146.695 29.58V24.306H144.409V30.48C144.409 32.172 145.309 33.216 147.217 33.216C148.639 33.216 149.683 32.568 150.277 31.902V33H152.563ZM155.967 23.37C156.723 23.37 157.335 22.758 157.335 22.002C157.335 21.246 156.723 20.652 155.967 20.652C155.229 20.652 154.599 21.246 154.599 22.002C154.599 22.758 155.229 23.37 155.967 23.37ZM154.023 36.528C156.111 36.528 157.119 35.214 157.119 33.234V24.306H154.833V33.234C154.833 34.206 154.347 34.656 153.645 34.656C153.123 34.656 152.817 34.494 152.475 34.206L151.845 35.916C152.475 36.348 152.925 36.528 154.023 36.528ZM161.469 23.37C162.225 23.37 162.837 22.758 162.837 22.002C162.837 21.246 162.225 20.652 161.469 20.652C160.731 20.652 160.101 21.246 160.101 22.002C160.101 22.758 160.731 23.37 161.469 23.37ZM159.525 36.528C161.613 36.528 162.621 35.214 162.621 33.234V24.306H160.335V33.234C160.335 34.206 159.849 34.656 159.147 34.656C158.625 34.656 158.319 34.494 157.977 34.206L157.347 35.916C157.977 36.348 158.427 36.528 159.525 36.528ZM172.394 33V27.384C172.394 24.882 170.576 24.09 168.596 24.09C167.228 24.09 165.86 24.522 164.798 25.458L165.662 26.988C166.4 26.304 167.264 25.962 168.2 25.962C169.352 25.962 170.108 26.538 170.108 27.42V28.59C169.532 27.906 168.506 27.528 167.354 27.528C165.968 27.528 164.33 28.302 164.33 30.336C164.33 32.28 165.968 33.216 167.354 33.216C168.488 33.216 169.514 32.802 170.108 32.1V33H172.394ZM168.272 31.668C167.372 31.668 166.634 31.2 166.634 30.39C166.634 29.544 167.372 29.076 168.272 29.076C169.01 29.076 169.73 29.328 170.108 29.832V30.912C169.73 31.416 169.01 31.668 168.272 31.668ZM177.577 33.216C178.531 33.216 179.143 32.964 179.485 32.658L178.999 30.93C178.873 31.056 178.549 31.182 178.207 31.182C177.703 31.182 177.415 30.768 177.415 30.228V26.304H179.179V24.306H177.415V21.93H175.111V24.306H173.671V26.304H175.111V30.84C175.111 32.388 175.975 33.216 177.577 33.216ZM183.029 33V20.994H180.743V33H183.029ZM192.802 33V27.384C192.802 24.882 190.984 24.09 189.004 24.09C187.636 24.09 186.268 24.522 185.206 25.458L186.07 26.988C186.808 26.304 187.672 25.962 188.608 25.962C189.76 25.962 190.516 26.538 190.516 27.42V28.59C189.94 27.906 188.914 27.528 187.762 27.528C186.376 27.528 184.738 28.302 184.738 30.336C184.738 32.28 186.376 33.216 187.762 33.216C188.896 33.216 189.922 32.802 190.516 32.1V33H192.802ZM188.68 31.668C187.78 31.668 187.042 31.2 187.042 30.39C187.042 29.544 187.78 29.076 188.68 29.076C189.418 29.076 190.138 29.328 190.516 29.832V30.912C190.138 31.416 189.418 31.668 188.68 31.668ZM197.356 33V27.258C197.734 26.7 198.742 26.268 199.498 26.268C199.75 26.268 199.966 26.286 200.128 26.322V24.09C199.048 24.09 197.968 24.72 197.356 25.494V24.306H195.07V33H197.356ZM209.71 33V26.862C209.71 25.17 208.792 24.09 206.884 24.09C205.462 24.09 204.4 24.774 203.842 25.44V24.306H201.556V33H203.842V27.15C204.22 26.628 204.922 26.124 205.822 26.124C206.794 26.124 207.424 26.538 207.424 27.744V33H209.71ZM213.114 23.37C213.87 23.37 214.482 22.758 214.482 22.002C214.482 21.246 213.87 20.652 213.114 20.652C212.376 20.652 211.746 21.246 211.746 22.002C211.746 22.758 212.376 23.37 213.114 23.37ZM214.266 33V24.306H211.98V33H214.266ZM224.054 33.216C225.008 33.216 225.62 32.964 225.962 32.658L225.476 30.93C225.35 31.056 225.026 31.182 224.684 31.182C224.18 31.182 223.892 30.768 223.892 30.228V26.304H225.656V24.306H223.892V21.93H221.588V24.306H220.148V26.304H221.588V30.84C221.588 32.388 222.452 33.216 224.054 33.216ZM234.726 33V27.384C234.726 24.882 232.908 24.09 230.928 24.09C229.56 24.09 228.192 24.522 227.13 25.458L227.994 26.988C228.732 26.304 229.596 25.962 230.532 25.962C231.684 25.962 232.44 26.538 232.44 27.42V28.59C231.864 27.906 230.838 27.528 229.686 27.528C228.3 27.528 226.662 28.302 226.662 30.336C226.662 32.28 228.3 33.216 229.686 33.216C230.82 33.216 231.846 32.802 232.44 32.1V33H234.726ZM230.604 31.668C229.704 31.668 228.966 31.2 228.966 30.39C228.966 29.544 229.704 29.076 230.604 29.076C231.342 29.076 232.062 29.328 232.44 29.832V30.912C232.062 31.416 231.342 31.668 230.604 31.668ZM236.687 36.402C236.975 36.474 237.551 36.528 237.821 36.528C239.315 36.492 240.467 36.06 241.115 34.422L245.201 24.306H242.735L240.467 30.354L238.199 24.306H235.751L239.279 33.126L238.955 33.864C238.739 34.332 238.343 34.494 237.749 34.494C237.533 34.494 237.227 34.44 237.029 34.35L236.687 36.402ZM245.916 36.402C246.204 36.474 246.78 36.528 247.05 36.528C248.544 36.492 249.696 36.06 250.344 34.422L254.43 24.306H251.964L249.696 30.354L247.428 24.306H244.98L248.508 33.126L248.184 33.864C247.968 34.332 247.572 34.494 246.978 34.494C246.762 34.494 246.456 34.44 246.258 34.35L245.916 36.402ZM259.482 33.216C262.362 33.216 264.09 31.128 264.09 28.644C264.09 26.178 262.362 24.09 259.482 24.09C256.62 24.09 254.892 26.178 254.892 28.644C254.892 31.128 256.62 33.216 259.482 33.216ZM259.482 31.182C258.06 31.182 257.268 30.012 257.268 28.644C257.268 27.294 258.06 26.124 259.482 26.124C260.904 26.124 261.714 27.294 261.714 28.644C261.714 30.012 260.904 31.182 259.482 31.182ZM268.072 33V27.258C268.45 26.7 269.458 26.268 270.214 26.268C270.466 26.268 270.682 26.286 270.844 26.322V24.09C269.764 24.09 268.684 24.72 268.072 25.494V24.306H265.786V33H268.072ZM274.559 33V20.994H272.273V33H274.559ZM284.331 33V27.384C284.331 24.882 282.513 24.09 280.533 24.09C279.165 24.09 277.797 24.522 276.735 25.458L277.599 26.988C278.337 26.304 279.201 25.962 280.137 25.962C281.289 25.962 282.045 26.538 282.045 27.42V28.59C281.469 27.906 280.443 27.528 279.291 27.528C277.905 27.528 276.267 28.302 276.267 30.336C276.267 32.28 277.905 33.216 279.291 33.216C280.425 33.216 281.451 32.802 282.045 32.1V33H284.331ZM280.209 31.668C279.309 31.668 278.571 31.2 278.571 30.39C278.571 29.544 279.309 29.076 280.209 29.076C280.947 29.076 281.667 29.328 282.045 29.832V30.912C281.667 31.416 280.947 31.668 280.209 31.668ZM289.731 33.216C292.143 33.216 293.493 32.01 293.493 30.426C293.493 26.916 288.345 27.996 288.345 26.7C288.345 26.214 288.885 25.836 289.713 25.836C290.775 25.836 291.765 26.286 292.287 26.844L293.205 25.278C292.341 24.594 291.171 24.09 289.695 24.09C287.409 24.09 286.131 25.368 286.131 26.826C286.131 30.246 291.297 29.076 291.297 30.516C291.297 31.056 290.829 31.452 289.839 31.452C288.759 31.452 287.463 30.858 286.833 30.264L285.843 31.866C286.761 32.712 288.219 33.216 289.731 33.216ZM303.349 33V26.826C303.349 25.134 302.431 24.09 300.523 24.09C299.101 24.09 298.021 24.774 297.463 25.44V20.994H295.177V33H297.463V27.15C297.859 26.628 298.561 26.124 299.443 26.124C300.433 26.124 301.063 26.502 301.063 27.708V33H303.349ZM318.72 33L315.174 28.248L318.612 24.306H315.804L312.51 28.176V20.994H310.224V33H312.51V30.768L313.554 29.652L315.858 33H318.72ZM323.837 33.216C325.187 33.216 326.555 32.802 327.419 32.01L326.411 30.534C325.853 31.074 324.827 31.398 324.089 31.398C322.613 31.398 321.731 30.48 321.587 29.382H328.049V28.878C328.049 26.034 326.285 24.09 323.693 24.09C321.047 24.09 319.193 26.124 319.193 28.644C319.193 31.434 321.191 33.216 323.837 33.216ZM325.835 27.834H321.551C321.659 26.97 322.271 25.908 323.693 25.908C325.205 25.908 325.781 27.006 325.835 27.834ZM331.986 33V27.258C332.364 26.7 333.372 26.268 334.128 26.268C334.38 26.268 334.596 26.286 334.758 26.322V24.09C333.678 24.09 332.598 24.72 331.986 25.494V24.306H329.7V33H331.986ZM343.693 33V27.384C343.693 24.882 341.875 24.09 339.895 24.09C338.527 24.09 337.159 24.522 336.097 25.458L336.961 26.988C337.699 26.304 338.563 25.962 339.499 25.962C340.651 25.962 341.407 26.538 341.407 27.42V28.59C340.831 27.906 339.805 27.528 338.653 27.528C337.267 27.528 335.629 28.302 335.629 30.336C335.629 32.28 337.267 33.216 338.653 33.216C339.787 33.216 340.813 32.802 341.407 32.1V33H343.693ZM339.571 31.668C338.671 31.668 337.933 31.2 337.933 30.39C337.933 29.544 338.671 29.076 339.571 29.076C340.309 29.076 341.029 29.328 341.407 29.832V30.912C341.029 31.416 340.309 31.668 339.571 31.668ZM354.456 33L350.91 28.248L354.348 24.306H351.54L348.246 28.176V20.994H345.96V33H348.246V30.768L349.29 29.652L351.594 33H354.456ZM357.663 29.328L359.625 28.752C359.445 28.59 359.301 28.284 359.301 27.996C359.301 26.484 362.307 26.286 362.307 23.658C362.307 21.984 360.885 20.814 358.563 20.814C357.015 20.814 355.575 21.444 354.621 22.56L356.079 24.198C356.637 23.532 357.393 23.082 358.293 23.082C359.283 23.082 359.697 23.55 359.697 24.108C359.697 25.35 357.069 25.602 357.069 27.744C357.069 28.374 357.285 28.914 357.663 29.328ZM358.527 33.198C359.319 33.198 359.985 32.532 359.985 31.74C359.985 30.948 359.319 30.282 358.527 30.282C357.735 30.282 357.069 30.948 357.069 31.74C357.069 32.532 357.735 33.198 358.527 33.198Z" transform="translate(4.86914 2)" fill="black"/>
+                    </svg>
+
+                </div>
+                <div class="col-md-5 col-xs-10 col-xs-offset-1">
+                    <svg width="450" height="74" viewBox="0 0 450 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="444.5" height="61.5927" rx="10" transform="translate(5.36963)" fill="#E9E9E9"/>
+                    <path class="first" d="M24.7173 12.4179L5.36961 0C1.73159 11.0933 -3.53588 27.8546 3.36941 23.8252C12.8186 18.3113 17.6066 13.4113 24.7173 12.4179Z" transform="translate(0 49.1748)" fill="#E9E9E9"/>
+                    <path class="second" d="M79.3752 33L74.2812 26.628L79.0512 20.994H75.9012L71.6532 26.358V20.994H69.0972V33H71.6532V29.31L72.5892 28.194L76.2252 33H79.3752ZM81.6205 23.37C82.3765 23.37 82.9885 22.758 82.9885 22.002C82.9885 21.246 82.3765 20.652 81.6205 20.652C80.8825 20.652 80.2525 21.246 80.2525 22.002C80.2525 22.758 80.8825 23.37 81.6205 23.37ZM82.7725 33V24.306H80.4865V33H82.7725ZM98.1253 33V26.718C98.1253 24.936 97.1713 24.09 95.5693 24.09C94.2373 24.09 93.0853 24.882 92.5813 25.674C92.2573 24.684 91.4473 24.09 90.1693 24.09C88.8373 24.09 87.6853 24.918 87.3253 25.44V24.306H85.0393V33H87.3253V27.15C87.6673 26.664 88.3333 26.124 89.1253 26.124C90.0613 26.124 90.4213 26.7 90.4213 27.51V33H92.7253V27.132C93.0493 26.664 93.7153 26.124 94.5253 26.124C95.4613 26.124 95.8213 26.7 95.8213 27.51V33H98.1253ZM102.653 33V20.994H100.367V33H102.653ZM112.426 33V27.384C112.426 24.882 110.608 24.09 108.628 24.09C107.26 24.09 105.892 24.522 104.83 25.458L105.694 26.988C106.432 26.304 107.296 25.962 108.232 25.962C109.384 25.962 110.14 26.538 110.14 27.42V28.59C109.564 27.906 108.538 27.528 107.386 27.528C106 27.528 104.362 28.302 104.362 30.336C104.362 32.28 106 33.216 107.386 33.216C108.52 33.216 109.546 32.802 110.14 32.1V33H112.426ZM108.304 31.668C107.404 31.668 106.666 31.2 106.666 30.39C106.666 29.544 107.404 29.076 108.304 29.076C109.042 29.076 109.762 29.328 110.14 29.832V30.912C109.762 31.416 109.042 31.668 108.304 31.668ZM116.98 33V27.258C117.358 26.7 118.366 26.268 119.122 26.268C119.374 26.268 119.59 26.286 119.752 26.322V24.09C118.672 24.09 117.592 24.72 116.98 25.494V24.306H114.694V33H116.98ZM126.919 23.37C127.675 23.37 128.287 22.758 128.287 22.002C128.287 21.246 127.675 20.652 126.919 20.652C126.181 20.652 125.551 21.246 125.551 22.002C125.551 22.758 126.181 23.37 126.919 23.37ZM128.071 33V24.306H125.785V33H128.071ZM143.424 33V26.718C143.424 24.936 142.47 24.09 140.868 24.09C139.536 24.09 138.384 24.882 137.88 25.674C137.556 24.684 136.746 24.09 135.468 24.09C134.136 24.09 132.984 24.918 132.624 25.44V24.306H130.338V33H132.624V27.15C132.966 26.664 133.632 26.124 134.424 26.124C135.36 26.124 135.72 26.7 135.72 27.51V33H138.024V27.132C138.348 26.664 139.014 26.124 139.824 26.124C140.76 26.124 141.12 26.7 141.12 27.51V33H143.424ZM148.582 33.216C149.536 33.216 150.148 32.964 150.49 32.658L150.004 30.93C149.878 31.056 149.554 31.182 149.212 31.182C148.708 31.182 148.42 30.768 148.42 30.228V26.304H150.184V24.306H148.42V21.93H146.116V24.306H144.676V26.304H146.116V30.84C146.116 32.388 146.98 33.216 148.582 33.216ZM152.882 23.37C153.638 23.37 154.25 22.758 154.25 22.002C154.25 21.246 153.638 20.652 152.882 20.652C152.144 20.652 151.514 21.246 151.514 22.002C151.514 22.758 152.144 23.37 152.882 23.37ZM154.034 33V24.306H151.748V33H154.034ZM164.473 33V26.826C164.473 25.134 163.555 24.09 161.647 24.09C160.225 24.09 159.145 24.774 158.587 25.44V20.994H156.301V33H158.587V27.15C158.983 26.628 159.685 26.124 160.567 26.124C161.557 26.124 162.187 26.502 162.187 27.708V33H164.473ZM170.774 33.216C173.654 33.216 175.382 31.128 175.382 28.644C175.382 26.178 173.654 24.09 170.774 24.09C167.912 24.09 166.184 26.178 166.184 28.644C166.184 31.128 167.912 33.216 170.774 33.216ZM170.774 31.182C169.352 31.182 168.56 30.012 168.56 28.644C168.56 27.294 169.352 26.124 170.774 26.124C172.196 26.124 173.006 27.294 173.006 28.644C173.006 30.012 172.196 31.182 170.774 31.182ZM185.232 33V26.862C185.232 25.17 184.314 24.09 182.406 24.09C180.984 24.09 179.922 24.774 179.364 25.44V24.306H177.078V33H179.364V27.15C179.742 26.628 180.444 26.124 181.344 26.124C182.316 26.124 182.946 26.538 182.946 27.744V33H185.232ZM195.024 33.216C195.978 33.216 196.59 32.964 196.932 32.658L196.446 30.93C196.32 31.056 195.996 31.182 195.654 31.182C195.15 31.182 194.862 30.768 194.862 30.228V26.304H196.626V24.306H194.862V21.93H192.558V24.306H191.118V26.304H192.558V30.84C192.558 32.388 193.422 33.216 195.024 33.216ZM202.222 33.216C205.102 33.216 206.83 31.128 206.83 28.644C206.83 26.178 205.102 24.09 202.222 24.09C199.36 24.09 197.632 26.178 197.632 28.644C197.632 31.128 199.36 33.216 202.222 33.216ZM202.222 31.182C200.8 31.182 200.008 30.012 200.008 28.644C200.008 27.294 200.8 26.124 202.222 26.124C203.644 26.124 204.454 27.294 204.454 28.644C204.454 30.012 203.644 31.182 202.222 31.182ZM213.494 33.216C215.726 33.216 217.346 31.542 217.346 28.644C217.346 25.746 215.726 24.09 213.494 24.09C212.432 24.09 211.478 24.558 210.812 25.404V24.306H208.526V36.312H210.812V31.884C211.514 32.784 212.468 33.216 213.494 33.216ZM212.774 31.182C212.036 31.182 211.19 30.732 210.812 30.192V27.114C211.19 26.556 212.036 26.124 212.774 26.124C214.088 26.124 214.97 27.15 214.97 28.644C214.97 30.156 214.088 31.182 212.774 31.182ZM222.152 33.216C224.564 33.216 225.914 32.01 225.914 30.426C225.914 26.916 220.766 27.996 220.766 26.7C220.766 26.214 221.306 25.836 222.134 25.836C223.196 25.836 224.186 26.286 224.708 26.844L225.626 25.278C224.762 24.594 223.592 24.09 222.116 24.09C219.83 24.09 218.552 25.368 218.552 26.826C218.552 30.246 223.718 29.076 223.718 30.516C223.718 31.056 223.25 31.452 222.26 31.452C221.18 31.452 219.884 30.858 219.254 30.264L218.264 31.866C219.182 32.712 220.64 33.216 222.152 33.216ZM235.77 33V26.826C235.77 25.134 234.852 24.09 232.944 24.09C231.522 24.09 230.442 24.774 229.884 25.44V20.994H227.598V33H229.884V27.15C230.28 26.628 230.982 26.124 231.864 26.124C232.854 26.124 233.484 26.502 233.484 27.708V33H235.77ZM239.173 23.37C239.929 23.37 240.541 22.758 240.541 22.002C240.541 21.246 239.929 20.652 239.173 20.652C238.435 20.652 237.805 21.246 237.805 22.002C237.805 22.758 238.435 23.37 239.173 23.37ZM240.325 33V24.306H238.039V33H240.325ZM244.878 33V27.258C245.256 26.7 246.264 26.268 247.02 26.268C247.272 26.268 247.488 26.286 247.65 26.322V24.09C246.57 24.09 245.49 24.72 244.878 25.494V24.306H242.592V33H244.878ZM250.212 23.37C250.968 23.37 251.58 22.758 251.58 22.002C251.58 21.246 250.968 20.652 250.212 20.652C249.474 20.652 248.844 21.246 248.844 22.002C248.844 22.758 249.474 23.37 250.212 23.37ZM251.364 33V24.306H249.078V33H251.364ZM256.763 33.216C259.175 33.216 260.525 32.01 260.525 30.426C260.525 26.916 255.377 27.996 255.377 26.7C255.377 26.214 255.917 25.836 256.745 25.836C257.807 25.836 258.797 26.286 259.319 26.844L260.237 25.278C259.373 24.594 258.203 24.09 256.727 24.09C254.441 24.09 253.163 25.368 253.163 26.826C253.163 30.246 258.329 29.076 258.329 30.516C258.329 31.056 257.861 31.452 256.871 31.452C255.791 31.452 254.495 30.858 253.865 30.264L252.875 31.866C253.793 32.712 255.251 33.216 256.763 33.216ZM270.381 33V26.826C270.381 25.134 269.463 24.09 267.555 24.09C266.133 24.09 265.053 24.774 264.495 25.44V20.994H262.209V33H264.495V27.15C264.891 26.628 265.593 26.124 266.475 26.124C267.465 26.124 268.095 26.502 268.095 27.708V33H270.381ZM285.752 33L282.206 28.248L285.644 24.306H282.836L279.542 28.176V20.994H277.256V33H279.542V30.768L280.586 29.652L282.89 33H285.752ZM290.869 33.216C292.219 33.216 293.587 32.802 294.451 32.01L293.443 30.534C292.885 31.074 291.859 31.398 291.121 31.398C289.645 31.398 288.763 30.48 288.619 29.382H295.081V28.878C295.081 26.034 293.317 24.09 290.725 24.09C288.079 24.09 286.225 26.124 286.225 28.644C286.225 31.434 288.223 33.216 290.869 33.216ZM292.867 27.834H288.583C288.691 26.97 289.303 25.908 290.725 25.908C292.237 25.908 292.813 27.006 292.867 27.834ZM299.019 33V27.258C299.397 26.7 300.405 26.268 301.161 26.268C301.413 26.268 301.629 26.286 301.791 26.322V24.09C300.711 24.09 299.631 24.72 299.019 25.494V24.306H296.733V33H299.019ZM310.725 33V27.384C310.725 24.882 308.907 24.09 306.927 24.09C305.559 24.09 304.191 24.522 303.129 25.458L303.993 26.988C304.731 26.304 305.595 25.962 306.531 25.962C307.683 25.962 308.439 26.538 308.439 27.42V28.59C307.863 27.906 306.837 27.528 305.685 27.528C304.299 27.528 302.661 28.302 302.661 30.336C302.661 32.28 304.299 33.216 305.685 33.216C306.819 33.216 307.845 32.802 308.439 32.1V33H310.725ZM306.603 31.668C305.703 31.668 304.965 31.2 304.965 30.39C304.965 29.544 305.703 29.076 306.603 29.076C307.341 29.076 308.061 29.328 308.439 29.832V30.912C308.061 31.416 307.341 31.668 306.603 31.668ZM321.488 33L317.942 28.248L321.38 24.306H318.572L315.278 28.176V20.994H312.992V33H315.278V30.768L316.322 29.652L318.626 33H321.488ZM331.317 33.216C332.667 33.216 334.035 32.802 334.899 32.01L333.891 30.534C333.333 31.074 332.307 31.398 331.569 31.398C330.093 31.398 329.211 30.48 329.067 29.382H335.529V28.878C335.529 26.034 333.765 24.09 331.173 24.09C328.527 24.09 326.673 26.124 326.673 28.644C326.673 31.434 328.671 33.216 331.317 33.216ZM333.315 27.834H329.031C329.139 26.97 329.751 25.908 331.173 25.908C332.685 25.908 333.261 27.006 333.315 27.834ZM350.266 33V26.718C350.266 24.936 349.312 24.09 347.71 24.09C346.378 24.09 345.226 24.882 344.722 25.674C344.398 24.684 343.588 24.09 342.31 24.09C340.978 24.09 339.826 24.918 339.466 25.44V24.306H337.18V33H339.466V27.15C339.808 26.664 340.474 26.124 341.266 26.124C342.202 26.124 342.562 26.7 342.562 27.51V33H344.866V27.132C345.19 26.664 345.856 26.124 346.666 26.124C347.602 26.124 347.962 26.7 347.962 27.51V33H350.266ZM360.014 33V27.384C360.014 24.882 358.196 24.09 356.216 24.09C354.848 24.09 353.48 24.522 352.418 25.458L353.282 26.988C354.02 26.304 354.884 25.962 355.82 25.962C356.972 25.962 357.728 26.538 357.728 27.42V28.59C357.152 27.906 356.126 27.528 354.974 27.528C353.588 27.528 351.95 28.302 351.95 30.336C351.95 32.28 353.588 33.216 354.974 33.216C356.108 33.216 357.134 32.802 357.728 32.1V33H360.014ZM355.892 31.668C354.992 31.668 354.254 31.2 354.254 30.39C354.254 29.544 354.992 29.076 355.892 29.076C356.63 29.076 357.35 29.328 357.728 29.832V30.912C357.35 31.416 356.63 31.668 355.892 31.668ZM365.413 33.216C367.825 33.216 369.175 32.01 369.175 30.426C369.175 26.916 364.027 27.996 364.027 26.7C364.027 26.214 364.567 25.836 365.395 25.836C366.457 25.836 367.447 26.286 367.969 26.844L368.887 25.278C368.023 24.594 366.853 24.09 365.377 24.09C363.091 24.09 361.813 25.368 361.813 26.826C361.813 30.246 366.979 29.076 366.979 30.516C366.979 31.056 366.511 31.452 365.521 31.452C364.441 31.452 363.145 30.858 362.515 30.264L361.525 31.866C362.443 32.712 363.901 33.216 365.413 33.216ZM372.086 29.328L374.048 28.752C373.868 28.59 373.724 28.284 373.724 27.996C373.724 26.484 376.73 26.286 376.73 23.658C376.73 21.984 375.308 20.814 372.986 20.814C371.438 20.814 369.998 21.444 369.044 22.56L370.502 24.198C371.06 23.532 371.816 23.082 372.716 23.082C373.706 23.082 374.12 23.55 374.12 24.108C374.12 25.35 371.492 25.602 371.492 27.744C371.492 28.374 371.708 28.914 372.086 29.328ZM372.95 33.198C373.742 33.198 374.408 32.532 374.408 31.74C374.408 30.948 373.742 30.282 372.95 30.282C372.158 30.282 371.492 30.948 371.492 31.74C371.492 32.532 372.158 33.198 372.95 33.198Z" transform="translate(4.86914 2)" fill="black"/>
+                    </svg>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ask">
+        <div class="container">
+            <h2 class="ask__title upper">
+                YANA SAVOLLAR BORMI?
+            </h2>
+            <p class="ask__text upper">Свяжитесь с нами удобным для вас способом!</p>
+            <div class="help">
+                <div class="info__container"> <i class="fa fa-map-marker info__icon" aria-hidden="true"></i>
+                    <p class="info__adres info__text info__text_first">IRKUTSK PARTIZANSKAYA 3,  312 HONA</p> <i class="fa fa-phone info__icon" aria-hidden="true"></i>
+                    <p class="info__tel info__text">8 3952 577 377</p> <i class="fa fa-envelope info__icon" aria-hidden="true"></i>
+                    <p class="info__mail info__text">mail@iocent.ru</p>
+                </div>
+                <div class="map">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A0458454ce5d81c53813f9e43d701c45c73d817c56e0c3afc3aaf932f0b5fea56&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xs-4 footer__logo">
+                    <a href="http://litvinenko.digital" target="_blank"><img src="/img/litvinenko.svg" alt=""></a>
+                    <br> </div>
+                <div class="col-xs-4 footer__link text-center"><a href="/legal/" class="link">Политика конфиденциальности</a></div>
+                <div class="col-xs-4 text-center footer__right">
+                    <p>© <a href="http://iocent.ru">IOCENT.RU</a> 2018</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'>
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        jQuery.preloadImages = function()
+         {
+          for(var i = 0; i < arguments.length; i++)
+          {
+           jQuery("<img>").attr("src", arguments[ i ]);
+          }
+         };
+
+        //указываем путь к изображению, которое нужно подгрузить
+        $.preloadImages("/img/cert1.jpg", "/img/cert2.jpg", "/img/cert3.jpg", "/img/cert4.jpg");
+    </script>
+</body>
+
+</html>
