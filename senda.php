@@ -64,5 +64,18 @@
     $headers  = "Content-type: text/html; charset=utf-8 \r\n";
     $headers .= "From: iocent.ru <call@iocent.ru>\r\n";
     mail($to, $subject, $message, $headers);
+
+
+    $smsservlogin="mail@iocent.ru";
+    $smsservpass="bXWzQsC95aywXToqjcKRRIniFmIB";
+    $today = date("Y-m-d H:i:s");
+    $sms="Дата:".$today." Имя: ".$_POST['name']."Телефон: ".$_POST['phone']." Откуда: ".$_POST['meta'];
+
+
+    $url='https://gate.smsaero.ru/send/?user='.$smsservlogin.'&password='.$smsservpass.'&to=89501261524&text='.$sms.'&from=iocent.ru&type=3';
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER,true);
+    $resp = curl_exec($ch);
     return true;
 ?>
