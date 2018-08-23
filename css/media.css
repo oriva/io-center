@@ -228,14 +228,13 @@ footer{
 	.header__ardess{
 		font-size: 10px;
 	}
-	.info{
-
-	}
-	.info__title{
-		font-size: 17px;
+	.info__title {
+		font-size: 19px;
 		margin: 0;
+        line-height: 28px;
 	}
-	h2{
+
+	h2 {
 		font-size: 22px;
 	}
 	

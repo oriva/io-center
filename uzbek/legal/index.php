@@ -27,11 +27,11 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-xs-5 ">
-                    <div class="header__flag">
-                        <a href="http://uz.iocent.ru"><img src="../img/uzbekistan.svg"></a>
+                <div class="col-xs-5">
+                    <div class="header__flag active">
+                        <a href="http://uz2.iocent.ru"><img src="img/uzbekistan.svg"></a>
                     </div>
-                    <div class="header__flag active"> <img src="../img/russia.svg"> </div>
+                    <div class="header__flag"><a href="http://test.iocent.ru"><img src="img/russia.svg"></a> </div>
                 </div>
             </div>
             <div class="row justify-content-between align-items-center header__menu">
@@ -39,10 +39,10 @@
                     <a href="/"> <img src="../img/logo.png" class="header__logo" alt=""> </a>
                 </div>
                 <div class="col-auto">
-                    <div class="header__flag">
-                        <a href="http://uz.iocent.ru"><img src="../img/uzbekistan.svg"></a>
+                    <div class="header__flag active">
+                        <a href="http://uz2.iocent.ru"><img src="../img/uzbekistan.svg"></a>
                     </div>
-                    <div class="header__flag active"> <img src="../img/russia.svg"> </div>
+                    <div class="header__flag"><a href="http://test.iocent.ru"><img src="../img/russia.svg"></a> </div>
                 </div>
                 <div class="col-auto"><a href="/#about" class="header__menu-link">О нас</a></div>
                 <div class="col-auto"><a href="/#need" class="header__menu-link">Расписание</a></div>
@@ -133,7 +133,11 @@
                     <br>
                     <br>Утверждаю 
                     <br>ЧУ ДПО «ИОЦ»
-                    <br>05.08.2018 г.</p>
+                    <br>05.08.2018 г.
+                    <br>
+                    <br>
+                    <br>
+                    <br><a href="/">На главную</a></p>
                 </div>
             </div>
         </div>
@@ -146,7 +150,7 @@
                     <br> </div>
                 <div class="col-xs-4 footer__link text-center"><a href="/legal/" class="link">Политика конфиденциальности</a></div>
                 <div class="col-xs-4 text-center footer__right">
-                    <p>© <a href="http://iocent.ru">IOCENT.RU</a> 2018</p>
+                    <p>© <a href="http://uz2.iocent.ru">IOCENT.RU</a> 2018</p>
                 </div>
             </div>
         </div>

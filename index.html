@@ -30,11 +30,11 @@
                     <form method="post">
                         <input type="text" hidden="hidden" name="meta" class="model-enter__input-meta">
                         <div class="group">
-                            <input type="text" name="name" autocomplete="off" placeholder="-" required=""><span class="bar"></span>
+                            <input type="text" name="name" autocomplete="off" placeholder="Имя*" required=""><span class="bar"></span>
                             <label>Имя*</label>
                         </div>
                         <div class="group">
-                            <input type="tel" name="phone" class="input--tel" autocomplete="off" placeholder="-" minlength="16" required="" maxlength="16"><span class="bar"></span>
+                            <input type="tel" name="phone" class="input--tel" autocomplete="off" placeholder="Телефон*" minlength="16" required="" maxlength="16"><span class="bar"></span>
                             <label>Телефон*</label>
                         </div>
                         <button>Отправить заявку</button>
@@ -98,25 +98,25 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-xs-5 ">
-                    <div class="header__flag">
-                        <a href="http://uz.iocent.ru"><img src="img/uzbekistan.svg"></a>
-                    </div>
-                    <div class="header__flag active">
-                    <a href="/"><img src="img/russia.svg"></a>
-                    </div>
-                </div>
+                <!--<div class="col-xs-5 ">-->
+                    <!--<div class="header__flag">-->
+                        <!--<a href="http://uz2.iocent.ru"><img src="img/uzbekistan.svg"></a>-->
+                    <!--</div>-->
+                    <!--<div class="header__flag active">-->
+                    <!--<a href="/"><img src="img/russia.svg"></a>-->
+                    <!--</div>-->
+                <!--</div>-->
             </div>
             <div class="row justify-content-between align-items-center header__menu">
                 <div class="col-auto">
                     <a href="/"> <img src="img/logo.png" class="header__logo" alt=""> </a>
                 </div>
-                <div class="col-auto">
-                    <div class="header__flag">
-                        <a href="http://uz.iocent.ru"><img src="img/uzbekistan.svg"></a>
-                    </div>
-                    <div class="header__flag active"> <img src="img/russia.svg"> </div>
-                </div>
+                <!--<div class="col-auto">-->
+                    <!--<div class="header__flag">-->
+                        <!--<a href="http://uz2.iocent.ru"><img src="img/uzbekistan.svg"></a>-->
+                    <!--</div>-->
+                    <!--<div class="header__flag active"> <img src="img/russia.svg"> </div>-->
+                <!--</div>-->
                 <div class="col-auto"><a href="#about" class="header__menu-link">О нас</a></div>
                 <div class="col-auto"><a href="#need" class="header__menu-link">Расписание</a></div>
                 <div class="col-auto"><a href="#free" class="header__menu-link">Пробное тестирование</a></div>
@@ -130,6 +130,12 @@
                 </div>
             </div>
             <div class="row align-items-center header__sub">
+                <div class="col-auto col-xs-offset-1 header__lang">
+                    <div class="header__lang_img">
+                        <a href="http://uz2.iocent.ru"><img src="img/uzbekistan.svg"></a>
+                    </div>
+                    <a href="http://uz2.iocent.ru" class="header__lang_link">НА УЗБЕКСКОМ</a>
+                </div>
                 <div class="col-md-offset-1 col-xs-12">
                     <div class="info">
                         <h2 class="info__title upper white">
@@ -419,13 +425,13 @@
                     <div class="col-md-3 col-sm-6 col-xs-12">
                         <input type="text" name="meta" data-meta="Пройти тестирование" hidden="hidden">
                         <div class="group">
-                            <input type="text" name="name" autocomplete="off" placeholder="-" required=""> <span class="bar"></span>
+                            <input type="text" name="name" autocomplete="off" placeholder="Имя*" required=""> <span class="bar"></span>
                             <label>Имя*</label>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="group">
-                            <input type="tel" name="phone" class="input--tel" autocomplete="off" placeholder="-" minlength="16" required="" maxlength="16"> <span class="bar"></span>
+                            <input type="tel" name="phone" class="input--tel" autocomplete="off" placeholder="Телефон*" minlength="16" required="" maxlength="16"> <span class="bar"></span>
                             <label>Телефон*</label>
                         </div>
                     </div>
@@ -575,6 +581,35 @@
         //указываем путь к изображению, которое нужно подгрузить
         $.preloadImages("/img/cert1.jpg", "/img/cert2.jpg", "/img/cert3.jpg", "/img/cert4.jpg");
     </script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter49895314 = new Ya.Metrika2({
+                        id:49895314,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true,
+                        webvisor:true
+                    });
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks2");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/49895314" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 </body>
 
 </html>

@@ -148,7 +148,7 @@
                     <br> </div>
                 <div class="col-xs-4 footer__link text-center"><a href="/legal/" class="link">Политика конфиденциальности</a></div>
                 <div class="col-xs-4 text-center footer__right">
-                    <p>© <a href="http://iocent.ru">IOCENT.RU</a> 2018</p>
+                    <p>© <a href="http://test.iocent.ru">IOCENT.RU</a> 2018</p>
                 </div>
             </div>
         </div>

@@ -72,7 +72,7 @@
     $sms="Дата:".$today." Имя: ".$_POST['name']."Телефон: ".$_POST['phone']." Откуда: ".$_POST['meta'];
 
 
-    $url='https://gate.smsaero.ru/send/?user='.$smsservlogin.'&password='.$smsservpass.'&to=89501261524&text='.$sms.'&from=iocent.ru&type=3';
+    $url='https://gate.smsaero.ru/send/?user='.$smsservlogin.'&password='.$smsservpass.'&to=89501261524&text='.$sms.'&from=test.iocent.ru&type=3';
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER,true);

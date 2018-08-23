@@ -16,6 +16,25 @@ $(document).ready(function () {
             tel.removeClass('fixed');
         }
     });
+
+        //ЦЕЛИ
+
+        $('.header__button').click(function(){
+            yaCounter49895314.reachGoal('form1');
+        });
+        $('.get__button').click(function(){
+            yaCounter49895314.reachGoal('form2');
+        });
+        $('.need__button').click(function(){
+            yaCounter49895314.reachGoal('form3');
+        });
+        $('.free__button').click(function(){
+            yaCounter49895314.reachGoal('form4');
+        });
+        $('.sent__button').click(function(){
+            yaCounter49895314.reachGoal('form5');
+        });
+    
     $(function () {
         $('.input--tel').mask('+7(999)999-99-99');
         $('.input--tel').on('focus', function () {
@@ -90,6 +109,7 @@ $('form').on('submit', function (e) {
         alert('Слишком короткий номер');
         return false;
     } else {
+        yaCounter49895314.reachGoal('submit');
         $('.hidden_cardbye form').trigger('reset');
         $.ajax({
             type: "POST"
