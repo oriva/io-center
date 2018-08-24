@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: http://test.iocent.ru/sitemap.xml
